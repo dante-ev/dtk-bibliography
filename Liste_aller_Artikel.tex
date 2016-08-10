@@ -1,0 +1,21 @@
+%!TEX TS-program = Arara
+% arara: pdflatex
+% arara: biber
+% arara: pdflatex
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+
+\usepackage[style=authoryear,backend=biber]{biblatex}
+\usepackage[babel,german=quotes]{csquotes}
+
+\addbibresource{dtk_edited.bib}
+
+\begin{document}
+
+\nocite{*}
+
+\printbibliography 
+
+\end{document}
