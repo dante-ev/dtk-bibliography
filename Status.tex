@@ -11,11 +11,9 @@
 \renewcommand{\familydefault}{\sfdefault}
 \RequirePackage[scaled=0.9]{helvet}
 \usepackage{tikz}
-\usepackage[right]{showlabels}
 \usetikzlibrary{positioning}
 \pagestyle{empty}
- 
-\usepackage{xcolor}
+ \usepackage{xcolor}
  
 \definecolor{mycol}{RGB}{0,0,0}
  
@@ -43,10 +41,10 @@
 [
     x=30mm,y=6mm,
     mybox/.style={rectangle,rounded corners,xshift=1cm,yshift=0cm,minimum width=15mm, minimum height=5mm},
-    topline/.style={circle,mycol,align=center,draw=red,very thick,font=\bfseries},
+    topline/.style={circle,mycol,align=center,draw=red,thick,font=\bfseries},
     botline/.style={circle,mycol,align=center,draw=orange,very thick,font=\bfseries},
     yelline/.style={mybox,mycol,align=center,draw=cyan,very thick,font=\bfseries},
-    pinkline/.style={mybox,mycol,align=center,thick,font=\bfseries}
+    pinkline/.style={mybox,mycol,align=center,thick}
 ]
 \node at (0,0) [pinkline] {1989};
 \node at (1,0) [topline] { };
