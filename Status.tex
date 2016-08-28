@@ -41,9 +41,9 @@
 [
     x=30mm,y=6mm,
     open/.style={circle,mycol,align=center,draw=gray,thick,font=\bfseries},
-    done/.style={circle,mycol,align=center,draw=green,thick,font=\bfseries},
+    done/.style={circle,fill=green,align=center,draw=green,thick,font=\bfseries},
     missing/.style={circle,fill=black,align=center,draw=black,thick,font=\bfseries},
-    inprogress/.style={circle,mycol,align=center,draw=yellow,thick,font=\bfseries},
+    inprogress/.style={circle,fill=orange,align=center,draw=orange,thick,font=\bfseries},
     year/.style={rectangle,rounded corners,xshift=1cm,yshift=0cm,minimum width=15mm, minimum height=5mm,mycol,align=center,thick}
 ]
 \node at (0,0) [year] {1989};
@@ -211,34 +211,10 @@
 \node at (0,-27) [year] {2016};
 \node at (1,-27) [open] { };
 \node at (2,-27) [open] { };
-\node at (3,-27) [open] { };
+\node at (3,-27) [inprogress] { };
 \node at (4,-27) [open] { };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 \end{tikzpicture}
 \end{center}
 \end{document}
