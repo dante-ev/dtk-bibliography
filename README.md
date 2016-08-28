@@ -9,7 +9,11 @@ Ziel dieses Projekts ist es:
 
 ## English Summary ##
 
-http://comedy.dante.de/~herbert/texnik/dtk/ provides the bibliography of all DTK-articles, unfortunately just until 2014 and on the basis of the scanned PDF, thus resulting in many errors. This github repo intends to provide a usable and updated version.
+http://comedy.dante.de/~herbert/texnik/dtk/ provides the bibliography of all DTK-articles, unfortunately just until 2014 and just on the basis of the scanned PDF, thus resulting in many errors. This github repo intends to provide a usable and updated version.
+
+## Subversion
+
+You can also use Subversion to check out the repository. Use the following URL: https://github.com/UweZiegenhagen/DTK-Bibliography
 
 
 Uwe Ziegenhagen, 2016-08-10
