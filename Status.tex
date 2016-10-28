@@ -1,41 +1,41 @@
 \documentclass[fontsize=12pt]{scrartcl}
 \usepackage[a4paper,landscape,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
- 
+
 \usepackage[]{eso-pic}
 \usepackage[]{attachfile}
- 
+
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
- 
+
 \renewcommand{\familydefault}{\sfdefault}
 \RequirePackage[scaled=0.9]{helvet}
 \usepackage{tikz}
 \usetikzlibrary{positioning}
 \pagestyle{empty}
  \usepackage{xcolor}
- 
+
 \definecolor{mycol}{RGB}{0,0,0}
- 
+
 \usepackage{hyperref}
 \usepackage[]{url}
- 
-\hypersetup{% 
+
+\hypersetup{%
   pdftitle={DTK Project Status},
   pdfauthor={Uwe Ziegenhagen, ziegenhagen@gmail.com},
   pdfsubject={DTK, LaTeX},
   pdfkeywords={DTK, LaTeX}
 }
- 
+
 \newcommand{\file}[1]{\textattachfile{#1}{\textcolor{blue}{\LaTeX\ Sourcecode}}}
- 
-\begin{document}  
- 
+
+\begin{document}
+
 \AddToShipoutPictureFG*{
-  \put(35,25){\footnotesize Uwe Ziegenhagen, ziegenhagen@gmail.com, \file{\jobname.tex}	
+  \put(35,25){\footnotesize Uwe Ziegenhagen, ziegenhagen@gmail.com, \file{\jobname.tex}
 }
 }
- 
+
 \begin{center}
 \begin{tikzpicture}
 [
@@ -51,7 +51,7 @@
 %\node at (2,0) [open] { };
 %\node at (3,0) [open] { };
 \node at (4,0) [open] { };
- 
+
 \node at (0,-1) [year] {1990};
 \node at (1,-1) [open] { };
 \node at (2,-1) [open] { };
@@ -200,7 +200,7 @@
 \node at (1,-25) [done] { };
 \node at (2,-25) [done] { };
 \node at (3,-25) [done] { };
-\node at (4,-25) [open] { };
+\node at (4,-25) [done] { };
 
 \node at (0,-26) [year] {2015};
 \node at (1,-26) [open] { };
