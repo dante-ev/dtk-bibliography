@@ -7,13 +7,16 @@ Ziel dieses Projekts ist es:
 - die bereits existierenden Einträge zu säubern und zu vereinheitlichen
 - fehlende DTK-Ausgaben sauber zu erfassen
 
+DTK Archiv: http://www.dante.de/DTK/Ausgaben.html
+
 ## English Summary ##
 
 http://comedy.dante.de/~herbert/texnik/dtk/ provides the bibliography of all DTK-articles, unfortunately just until 2014 and just on the basis of the scanned PDF, thus resulting in many errors. This github repo intends to provide a usable and updated version.
 
+DTK archive: http://www.dante.de/DTK/Ausgaben.html
+
 ## Subversion
 
 You can also use Subversion to check out the repository. Use the following URL: https://github.com/UweZiegenhagen/DTK-Bibliography
-
 
 Uwe Ziegenhagen, 2016-08-10
