@@ -11,7 +11,12 @@ sed -i 's/^[[:space:]]*author[[:space:]]*=/  author        =/' $1
 sed -i 's/^[[:space:]]*title[[:space:]]*=/  title         =/' $1
 sed -i '/^[[:space:]]*journal/s/^.*$/  journal       = dtk,/' $1
 sed -i "/^[[:space:]]*year/s/^.*$/  year          = \{$3\},/" $1
-sed -i "/^[[:space:]]*volume/s/^.*$/  volume        = \{$5($3)\},/" $1
+if [ "$3" -lt "1996" ]
+then
+  sed -i "/^[[:space:]]*volume/s/^.*$/  volume        = \{$5($3)\},/" $1
+else
+  sed -i "/^[[:space:]]*volume/s/^.*$/  volume        = \{$5\/$3\},/" $1
+fi
 sed -i "/^[[:space:]]*altvolume/s/^.*$/  altvolume     = {$4},/" $1
 sed -i "/^[[:space:]]*altnumber/s/^.*$/  altnumber     = {$5},/" $1
 sed -i "/^[[:space:]]*month/s/^.*$/  month         = {$2},/" $1
