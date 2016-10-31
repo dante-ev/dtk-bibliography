@@ -6,7 +6,7 @@
 # $4 = altvolume
 # $5 = altnumber
 
-sed -i 's/@Article{[[:space:]]*/@article {/' $1
+sed -i 's/@[aA]rticle[[:space:]]*{[[:space:]]*/@article {/' $1
 sed -i 's/^[[:space:]]*author[[:space:]]*=/  author        =/' $1
 sed -i 's/^[[:space:]]*title[[:space:]]*=/  title         =/' $1
 sed -i '/^[[:space:]]*journal/s/^.*$/  journal       = dtk,/' $1
