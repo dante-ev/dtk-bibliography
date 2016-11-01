@@ -1,4 +1,4 @@
-dtk-bibliography.pdf: dtk-bibliography.tex dtk-bibliography-utf8.bib
+komplett: dtk-bibliography.tex dtk-bibliography-utf8.bib
 	arara dtk-bibliography.tex
 
 clean:
