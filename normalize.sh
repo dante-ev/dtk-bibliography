@@ -25,10 +25,14 @@ sed -i "s/^[[:space:]]*annote[[:space:]]*=/  annote        =/" $1
 sed -i '/^[[:space:]]*keywords/d' $1
 sed -i -r 's/\{([A-ZÄÖÜ]+)\}/\1/g' $1
 sed -i -r 's/= ([0-9]+),/= \{\1\},/g' $1
-sed -i 's/{\\\"a}/ä/g' $1
-sed -i 's/{\\\"o}/ö/g' $1
-sed -i 's/{\\\"u}/ü/g' $1
-sed -i 's/{\\\"A}/Ä/g' $1
-sed -i 's/{\\\"O}/Ö/g' $1
-sed -i 's/{\\\"U}/Ü/g' $1
-sed -i 's/{\\ss}/ß/g' $1
+sed -i 's/ä/{\\\"a}/g' $1
+sed -i 's/ö/{\\\"o}/g' $1
+sed -i 's/ü/{\\\"u}/g' $1
+sed -i 's/Ä/{\\\"A}/g' $1
+sed -i 's/Ö/{\\\"O}/g' $1
+sed -i 's/Ü/{\\\"U}/g' $1
+sed -i 's/ß/{\\ss}/g' $1
+sed -i 's/»/\\enquote{/g' $1
+sed -i 's/«/}/g' $1
+
+dos2unix $1
