@@ -157,3 +157,10 @@ pythontex-files-*/
 
 # Latexian
 TSWLatexianTemp*
+
+# Ruby
+/.bundle/
+/.vendor/
+/vendor/
+Gemfile.lock
+

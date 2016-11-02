@@ -1,5 +1,7 @@
 # DTK-Bibliography
 
+[![Build Status](https://travis-ci.org/dante-ev/dtk-bibliography.svg)](https://travis-ci.org/dante-ev/dtk-bibliography)
+
 Die Webseite http://comedy.dante.de/~herbert/texnik/dtk/ stellt die Gesamtbibliografie der TeXnischen Komödie bereit, leider nur bis 2014 und nur auf Basis gescannter PDFs. Dadurch finden sich in der Datei viele Fehler, die eine saubere Auswertung und Weiterverarbeitung nur schwer möglich machen.
 
 Ziel dieses Projekts ist es:
