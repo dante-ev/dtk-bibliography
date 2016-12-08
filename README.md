@@ -40,7 +40,7 @@ Ziel dieses Projekts ist es:
 |       25 | 2013 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       26 | 2014 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       27 | 2015 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       28 | 2016 |    ✔   |    ○   |    ✔   |    ○   |
+|       28 | 2016 |    ✔   |    ✔   |    ✔   |    ○   |
 |       29 | 2017 |    ○   |    ○   |    ○   |    ○   |
 
 DTK Archiv: http://www.dante.de/DTK/Ausgaben.html
