@@ -15,7 +15,7 @@ Ziel dieses Projekts ist es:
 |     ---: | ---: |  :---: |  :---: |  :---: |  :---: |
 |        1 | 1989 |        |        |        |   0 ✔  |
 |        2 | 1990 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        3 | 1991 |    ○   |    ○   |    ○   |    ○   |
+|        3 | 1991 |    ✔   |    ○   |    ○   |    ○   |
 |        4 | 1992 |    ○   |    ○   |    ○   |    ○   |
 |        5 | 1993 |    ○   |    ○   |    ○   |    ○   |
 |        6 | 1994 |    ○   |    ○   |    ○   |    ○   |
@@ -44,13 +44,3 @@ Ziel dieses Projekts ist es:
 |       29 | 2017 |    ○   |    ○   |    ○   |    ○   |
 
 DTK Archiv: http://www.dante.de/DTK/Ausgaben.html
-
-## English Summary ##
-
-http://comedy.dante.de/~herbert/texnik/dtk/ provides the bibliography of all DTK-articles, unfortunately just until 2014 and just on the basis of the scanned PDF, thus resulting in many errors. This github repo intends to provide a usable and updated version.
-
-## Subversion
-
-You can also use Subversion to check out the repository. Use the following URL: https://github.com/UweZiegenhagen/DTK-Bibliography
-
-Uwe Ziegenhagen, 2016-08-10
