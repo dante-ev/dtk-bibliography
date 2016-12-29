@@ -1,4 +1,4 @@
-task default: [:pdf]
+task default: [:nonascii, :clean, :pdf]
 
 task ci: [:nonascii]
 
