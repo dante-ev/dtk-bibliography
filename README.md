@@ -2,14 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dante-ev/dtk-bibliography.svg)](https://travis-ci.org/dante-ev/dtk-bibliography)
 
-Die Webseite http://comedy.dante.de/~herbert/texnik/dtk/ stellt die Gesamtbibliografie der TeXnischen Komödie bereit, leider nur bis 2014 und nur auf Basis gescannter PDFs. Dadurch finden sich in der Datei viele Fehler, die eine saubere Auswertung und Weiterverarbeitung nur schwer möglich machen.
-
-Ziel dieses Projekts ist es:
-
-- die bereits existierenden Einträge zu säubern und zu vereinheitlichen
-- fehlende DTK-Ausgaben sauber zu erfassen
-
-# Status
+## Status
 
 | Jahrgang | Jahr | Heft 1 | Heft 2 | Heft 3 | Heft 4 |
 |     ---: | ---: |  :---: |  :---: |  :---: |  :---: |
@@ -19,7 +12,7 @@ Ziel dieses Projekts ist es:
 |        4 | 1992 |    ✔   |    ✔   |    ✔   |    x   |
 |        5 | 1993 |    ✔   |    ✔   |    ✔   |    ✔   |
 |        6 | 1994 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        7 | 1995 |    ✔   |    ✔   |    ○   |    ○   |
+|        7 | 1995 |    ✔   |    ✔   |    ✔   |    ○   |
 |        8 | 1996 |    ✔   |    ✔   |    ○   |    ○   |
 |        9 | 1997 |    ○   |    ○   |    ○   |    ○   |
 |       10 | 1998 |    ○   |    ○   |    ○   |    ○   |
