@@ -4,6 +4,13 @@
 
 ## Status
 
+| Zeichen | Bedeutung                                 |
+|  :---:  | :---                                      |
+|    o    | nicht erfasst                             |
+|    f    | Fehlstellen in der Web-Ausgabe            |
+|    w    | laut Web. Abgleich mit Druckausgabe fehlt |
+|    ✔    | Inhalt der Druckausgabe korrekt erfasst   |
+
 | Jahrgang | Jahr | Heft 1 | Heft 2 | Heft 3 | Heft 4 |
 |     ---: | ---: |  :---: |  :---: |  :---: |  :---: |
 |        1 | 1989 |        |        |        |   0 ✔  |
