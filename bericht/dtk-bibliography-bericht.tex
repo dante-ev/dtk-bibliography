@@ -1,0 +1,41 @@
+% Title:       Frühjahrsputz im Archiv der DTK
+% Author:      Leo Arnold (@leoarnold), Uwe Ziegenhagen (@UweZiegenhagen)
+% URL:         https://github.com/dante-ev/dtk-bibliography
+% License:     CC BY 4.0 - http://creativecommons.org/licenses/by/4.0/
+
+\documentclass[ngerman]{dtk} 
+
+\ifluatex
+  \usepackage[utf8]{luainputenc}
+\else
+  \usepackage[utf8]{inputenc}
+\fi
+
+\usepackage{listings}
+
+\title{Frühjahrsputz im Archiv der DTK} 
+\Author{Leo}{Arnold}{Garching b. München}
+\Author{Uwe}{Ziegenhagen}{Köln}
+
+\addbibresource{../dtk-bibliography-ascii.bib}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Die alte Bibliographie der \TeX{}nischen Komödie wurde durch mangelhafte Skripten unbrauchbar und geriet fast in Vergessenheit.
+Nach einer \enquote{Tour~de~Force} durch über hundert Ausgaben gibt es nun endlich wieder ein einheitliches Verzeichnis aller publizierten Beträge.
+\end{abstract} 
+
+\section{Von Spinnweben bedeckt}
+
+\nocite{*}
+
+\begin{lstlisting}
+Hallo
+\end{lstlisting}
+
+
+\printbibliography
+
+\end{document}
