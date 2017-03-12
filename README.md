@@ -1,5 +1,7 @@
 # DTK-Bibliography
 
+A project by Leo Arnold and Uwe Ziegenhagen to create an updated version of Dante's DTK bibliography. The bib file can also be used with Jabref (which also has some nice export functions, see the HTML file below)
+
 [![Build Status](https://travis-ci.org/dante-ev/dtk-bibliography.svg)](https://travis-ci.org/dante-ev/dtk-bibliography)
 
 ## Status
