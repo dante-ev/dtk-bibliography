@@ -9,9 +9,12 @@ end
 
 desc 'Show non-ASCII characters in bib file'
 task :nonascii do
-  found_characters = system('grep --color="auto" -P -n "[\x80-\xFF]" dtk-bibliography-ascii.bib')
-  raise('Found non-ASCII characters in bib file!') if found_characters
-  puts 'Success: Bib file is pure ASCII'
+	File.readlines('dtk-bibliography-ascii.bib').each do |li|
+  		if li =~ /[^[:ascii:]]/
+  			puts li
+ 			raise('Found non-ASCII characters in bib file!')
+  		end
+	end
 end
 
 desc 'Build the full DTK bibliography list as PDF'
