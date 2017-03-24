@@ -11,12 +11,13 @@
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 
-\usepackage[style=authoryear, backend=biber]{biblatex}
+\usepackage[style=authortitle, backend=biber, dashed=false]{biblatex}
 \usepackage[babel, german=quotes]{csquotes}
 
 \usepackage{dtk-logos}
 
-\addbibresource{dtk-bibliography-ascii.bib}
+\addbibresource{dtk-bibliography.bib}
+
 
 % Supress warnings about overfull boxes
 \hfuzz=100cm
@@ -25,6 +26,11 @@
 
 \nocite{*}
 
-\printbibliography
+\printbibliography[keyword=grusswort,title={Verzeichnis der Grußworte}]
+
+\printbibliography[filter=hinterderbuehne_ohne_grusswort,title={Hinter der Bühne}]
+
+\printbibliography[filter=artikel]
+
 
 \end{document}
