@@ -43,6 +43,6 @@ A project by Leo Arnold and Uwe Ziegenhagen to create an updated version of Dant
 |       26 | 2014 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       27 | 2015 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       28 | 2016 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       29 | 2017 |    ✔   |    ○   |    ○   |    ○   |
+|       29 | 2017 |    ✔   |    ✔   |    ✔   |    ✔   |
 
 DTK Archiv: http://www.dante.de/DTK/Ausgaben.html
