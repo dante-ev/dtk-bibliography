@@ -15,7 +15,7 @@ A project by Leo Arnold and Uwe Ziegenhagen to create an updated version of Dant
 
 | Jahrgang | Jahr | Heft 1 | Heft 2 | Heft 3 | Heft 4 |
 |     ---: | ---: |  :---: |  :---: |  :---: |  :---: |
-|        1 | 1989 |        |        |        |    ✔  |
+|        1 | 1989 |        |        |        |    ✔   |
 |        2 | 1990 |    ✔   |    ✔   |    ✔   |    ✔   |
 |        3 | 1991 |    ✔   |    ✔   |    ✔   |    ✔   |
 |        4 | 1992 |    ✔   |    ✔   |    ✔   |    ✔   |
@@ -44,5 +44,6 @@ A project by Leo Arnold and Uwe Ziegenhagen to create an updated version of Dant
 |       27 | 2015 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       28 | 2016 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       29 | 2017 |    ✔   |    ✔   |    ✔   |    ✔   |
+|       30 | 2018 |    ✔   |    ✔   |    ✔   |    ✔   |
 
 DTK Archiv: http://www.dante.de/DTK/Ausgaben.html
