@@ -1,0 +1,25 @@
+%% ---------------------------------------------------------------
+%% Rolf Niepraschk, Rolf.Niepraschk@dante.de
+%%
+%% Released under the LaTeX Project Public License v1.3c or later
+%% See http://www.latex-project.org/lppl.txt
+%% ---------------------------------------------------------------
+ 
+\ProvidesFile{dtk-authoryear.bbx}
+  [2019/02/05 v0.1 biblatex bibliography style for DTK bibliography]
+
+% Load the standard style to avoid copy-pasting unnecessary material
+\RequireBibliographyStyle{authoryear}
+
+\DeclareFieldFormat{license}{%
+  \addcomma\addspace Lizenz:\addcomma\addspace#1\isdot}  
+  
+\renewbibmacro*{note+pages}{%
+  \printfield{note}%
+  \setunit{\bibpagespunct}%
+  \printfield{pages}%
+  \printfield{license}%
+  \newunit
+} 
+
+\endinput
