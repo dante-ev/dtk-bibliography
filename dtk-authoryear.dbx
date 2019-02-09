@@ -4,13 +4,11 @@
 %% Released under the LaTeX Project Public License v1.3c or later
 %% See http://www.latex-project.org/lppl.txt
 %% ---------------------------------------------------------------
- 
+
 \ProvidesFile{dtk-authoryear.bbx}
   [2019/02/05 v0.1 bibliography style data model for DTK bibliography]
-  
+
 \DeclareDatamodelFields[type=field,datatype=literal]{license}
 \DeclareDatamodelEntryfields[article]{license}
 
 \endinput
-
-
