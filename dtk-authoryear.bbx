@@ -4,22 +4,71 @@
 %% Released under the LaTeX Project Public License v1.3c or later
 %% See http://www.latex-project.org/lppl.txt
 %% ---------------------------------------------------------------
- 
+
 \ProvidesFile{dtk-authoryear.bbx}
-  [2019/02/05 v0.1 biblatex bibliography style for DTK bibliography]
+  [2019/02/09 v0.2 biblatex bibliography style for DTK bibliography]
 
 % Load the standard style to avoid copy-pasting unnecessary material
 \RequireBibliographyStyle{authoryear}
 
+\setlength{\bibinitsep}{\baselineskip}
+\setlength{\bibnamesep}{.25\baselineskip}
+\setlength{\bibhang}{0pt}
+
+\renewcommand*{\newunitpunct}{\addcomma\space}
+\DeclareDelimFormat[bib]{nametitledelim}{\addcolon\space}
+
+\DeclareNameAlias{sortname}{family-given}
+
+\DeclareFieldFormat[article]{title}{\mkbibemph{#1\isdot}}
+\DeclareFieldFormat{journaltitle}{#1}
+\DeclareFieldFormat[article]{volume}{%
+  \mkbibparens{\mkbibmascord{#1}~\bibstring{jourvol}}}
+
+\NewBibliographyString{license}
+\DefineBibliographyStrings{german}{
+  license = {Lizenz},
+}
+
 \DeclareFieldFormat{license}{%
-  \addcomma\addspace Lizenz:\addcomma\addspace#1\isdot}  
-  
+  \bibstring{license}: #1\isdot}
+
+
+\renewbibmacro*{journal+issuetitle}{%
+  \usebibmacro{journal}%
+  \setunit*{\addspace}%
+  \usebibmacro{volume+number+eid}%
+  %\setunit{\addspace}%
+  %\usebibmacro{issue+date}%
+  %\setunit{\addcolon\space}%
+  %\usebibmacro{issue}%
+  \newunit}
+
+\renewbibmacro*{volume+number+eid}{%
+  \printfield{number}%
+  \setunit{\addnbthinspace\slash\addnbthinspace}%
+  \printfield{year}%
+  \setunit{\addspace}%
+  \printfield{volume}%
+}
+
 \renewbibmacro*{note+pages}{%
   \printfield{note}%
   \setunit{\bibpagespunct}%
   \printfield{pages}%
+  \setunit{\addcomma\space}%
   \printfield{license}%
   \newunit
-} 
+}
+
+\defbibfilter{hinterderbuehne_ohne_grusswort}{
+  keyword=hinterbuehne
+  and not keyword=grusswort
+}
+
+\defbibfilter{artikel}{
+  not keyword=hinterbuehne
+}
+
 
 \endinput
