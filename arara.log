@@ -1,119 +1,30 @@
-08 Dez 2019 19:40:31.633 INFO  - Welcome to arara 4.0 (revision 2)!
-08 Dez 2019 19:40:31.634 INFO  - -----------------------------------------------------------------
-08 Dez 2019 19:40:31.636 INFO  - ::: arara @ C:\texlive\2019\texmf-dist\scripts\arara
-08 Dez 2019 19:40:31.636 INFO  - ::: Java 1.8.0_171, Oracle Corporation
-08 Dez 2019 19:40:31.636 INFO  - ::: C:\Program Files (x86)\Java\jre1.8.0_171
-08 Dez 2019 19:40:31.636 INFO  - ::: Windows 10, x86, 10.0
-08 Dez 2019 19:40:31.636 INFO  - ::: user.home @ C:\Users\Uwe
-08 Dez 2019 19:40:31.636 INFO  - ::: user.dir @ E:\Repos\dtk-bibliography.git\trunk
-08 Dez 2019 19:40:31.636 INFO  - ::: CF @ [none]
-08 Dez 2019 19:40:31.636 INFO  - -----------------------------------------------------------------
-08 Dez 2019 19:40:31.638 INFO  - Processing 'dtk-bibliography.tex' (size: 814 bytes, last modified: 05/23/2019 04:39:26), please wait.
-08 Dez 2019 19:40:31.643 INFO  - I found a potential pattern in line 2: pdflatex
-08 Dez 2019 19:40:31.643 INFO  - I found a potential pattern in line 3: biber
-08 Dez 2019 19:40:31.643 INFO  - I found a potential pattern in line 4: pdflatex
-08 Dez 2019 19:40:31.643 INFO  - I found a potential pattern in line 5: pdflatex
-08 Dez 2019 19:40:31.644 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [2] }
-08 Dez 2019 19:40:31.644 INFO  - I found a potential directive: Directive: { identifier: biber, parameters: {}, conditional: { NONE }, lines: [3] }
-08 Dez 2019 19:40:31.645 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [4] }
-08 Dez 2019 19:40:31.645 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [5] }
-08 Dez 2019 19:40:31.645 INFO  - All directives were validated. We are good to go.
-08 Dez 2019 19:40:31.645 INFO  - -------------------------- DIRECTIVES ---------------------------
-08 Dez 2019 19:40:31.645 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [2] }
-08 Dez 2019 19:40:31.645 INFO  - Directive: { identifier: biber, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [3] }
-08 Dez 2019 19:40:31.645 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [4] }
-08 Dez 2019 19:40:31.645 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [5] }
-08 Dez 2019 19:40:31.645 INFO  - -----------------------------------------------------------------
-08 Dez 2019 19:40:31.646 INFO  - I am ready to interpret rule 'pdflatex'.
-08 Dez 2019 19:40:31.647 INFO  - Rule location: 'C:\texlive\2019\texmf-dist\scripts\arara\rules'
-08 Dez 2019 19:40:31.830 INFO  - I am ready to interpret task 'PDFLaTeX engine' from rule 'PDFLaTeX'.
-08 Dez 2019 19:40:31.830 INFO  - System command: [ pdflatex, dtk-bibliography.tex ]
-08 Dez 2019 19:40:33.102 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
-08 Dez 2019 19:40:33.102 INFO  - This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./dtk-bibliography.tex
-LaTeX2e <2019-10-01> patch level 1
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2019/10/12 v3.27 KOMA-Script document class (article)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
-(c:/texlive/2019/texmf-dist/tex/latex/base/t1enc.def))
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
-(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def)
-(c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
-(c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
-(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)))))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty)))
-(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
-(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def))
-(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def)
-(./dtk-authoryear.dbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def)
-(./dtk-authoryear.bbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg))
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def)
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg))
-(c:/texlive/2019/texmf-dist/tex/latex/dtk/dtk-logos.sty
-(c:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/fetamont/fetamont.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hologo.sty
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/dantelogo/dantelogo.sty
-`dantelogo' v0.03, 2015/08/12 macro for DANTE's logo (hv)
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty)
-We run (pdf)latex ...  (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
-(c:/texlive/2019/texmf-dist/tex/latex/base/t1enc.def)))
-(c:/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx))
-No file dtk-bibliography.aux.
-No file dtk-bibliography.bbl.
-
-LaTeX Warning: Empty bibliography on input line 27.
-
-(./dtk-bibliography.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                dtk-bibliography
-(biblatex)                and rerun LaTeX afterwards.
-
- )
-No pages of output.
-Transcript written on dtk-bibliography.log.
-
-08 Dez 2019 19:40:33.102 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
-08 Dez 2019 19:40:33.105 INFO  - Task result: SUCCESS
-08 Dez 2019 19:40:33.106 INFO  - I am ready to interpret rule 'biber'.
-08 Dez 2019 19:40:33.106 INFO  - Rule location: 'C:\texlive\2019\texmf-dist\scripts\arara\rules'
-08 Dez 2019 19:40:33.109 INFO  - I am ready to interpret task 'The Biber reference management software' from rule 'Biber'.
-08 Dez 2019 19:40:33.109 INFO  - System command: [ biber, dtk-bibliography ]
+08 Mär 2020 12:52:29.110 INFO  - Welcome to arara 4.0 (revision 2)!
+08 Mär 2020 12:52:29.112 INFO  - -----------------------------------------------------------------
+08 Mär 2020 12:52:29.113 INFO  - ::: arara @ C:\texlive\2019\texmf-dist\scripts\arara
+08 Mär 2020 12:52:29.113 INFO  - ::: Java 1.8.0_171, Oracle Corporation
+08 Mär 2020 12:52:29.113 INFO  - ::: C:\Program Files (x86)\Java\jre1.8.0_171
+08 Mär 2020 12:52:29.113 INFO  - ::: Windows 10, x86, 10.0
+08 Mär 2020 12:52:29.113 INFO  - ::: user.home @ C:\Users\Uwe
+08 Mär 2020 12:52:29.113 INFO  - ::: user.dir @ E:\Repos\dtk-bibliography.git\trunk
+08 Mär 2020 12:52:29.114 INFO  - ::: CF @ [none]
+08 Mär 2020 12:52:29.114 INFO  - -----------------------------------------------------------------
+08 Mär 2020 12:52:29.114 INFO  - Processing 'dtk-bibliography.tex' (size: 814 bytes, last modified: 05/23/2019 04:39:26), please wait.
+08 Mär 2020 12:52:29.119 INFO  - I found a potential pattern in line 2: pdflatex
+08 Mär 2020 12:52:29.119 INFO  - I found a potential pattern in line 3: biber
+08 Mär 2020 12:52:29.119 INFO  - I found a potential pattern in line 4: pdflatex
+08 Mär 2020 12:52:29.119 INFO  - I found a potential pattern in line 5: pdflatex
+08 Mär 2020 12:52:29.120 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [2] }
+08 Mär 2020 12:52:29.120 INFO  - I found a potential directive: Directive: { identifier: biber, parameters: {}, conditional: { NONE }, lines: [3] }
+08 Mär 2020 12:52:29.121 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [4] }
+08 Mär 2020 12:52:29.121 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [5] }
+08 Mär 2020 12:52:29.121 INFO  - All directives were validated. We are good to go.
+08 Mär 2020 12:52:29.121 INFO  - -------------------------- DIRECTIVES ---------------------------
+08 Mär 2020 12:52:29.121 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [2] }
+08 Mär 2020 12:52:29.121 INFO  - Directive: { identifier: biber, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [3] }
+08 Mär 2020 12:52:29.121 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [4] }
+08 Mär 2020 12:52:29.121 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [5] }
+08 Mär 2020 12:52:29.121 INFO  - -----------------------------------------------------------------
+08 Mär 2020 12:52:29.122 INFO  - I am ready to interpret rule 'pdflatex'.
+08 Mär 2020 12:52:29.123 INFO  - Rule location: 'C:\texlive\2019\texmf-dist\scripts\arara\rules'
+08 Mär 2020 12:52:29.291 INFO  - I am ready to interpret task 'PDFLaTeX engine' from rule 'PDFLaTeX'.
+08 Mär 2020 12:52:29.291 INFO  - System command: [ pdflatex, dtk-bibliography.tex ]
