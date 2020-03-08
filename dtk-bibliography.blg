@@ -1,17 +1,17 @@
-[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'dtk-bibliography.blg'
-[29] biber-MSWIN32:315> INFO - === 
-[48] Biber.pm:375> INFO - Reading 'dtk-bibliography.bcf'
-[147] Biber.pm:902> INFO - Using all citekeys in bib section 0
-[161] Biber.pm:4196> INFO - Processing section 0
-[163] Utils.pm:75> INFO - Globbing data source 'dtk-bibliography.bib'
-[171] Utils.pm:91> INFO - Globbed data source 'dtk-bibliography.bib' to dtk-bibliography.bib
-[183] Biber.pm:4373> INFO - Looking for bibtex format file 'dtk-bibliography.bib' for section 0
-[242] bibtex.pm:1462> INFO - LaTeX decoding ...
-[2890] bibtex.pm:1281> INFO - Found BibTeX data source 'dtk-bibliography.bib'
-[9777] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[9777] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[9777] Biber.pm:4024> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[9777] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
-[11047] bbl.pm:648> INFO - Writing 'dtk-bibliography.bbl' with encoding 'UTF-8'
-[11701] bbl.pm:751> INFO - Output to dtk-bibliography.bbl
+[105] biber-MSWIN32:322> INFO - === 
+[131] Biber.pm:415> INFO - Reading 'dtk-bibliography.bcf'
+[267] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[292] Biber.pm:4256> INFO - Processing section 0
+[293] Utils.pm:75> INFO - Globbing data source 'dtk-bibliography.bib'
+[318] Utils.pm:91> INFO - Globbed data source 'dtk-bibliography.bib' to dtk-bibliography.bib
+[335] Biber.pm:4455> INFO - Looking for bibtex format file 'dtk-bibliography.bib' for section 0
+[395] bibtex.pm:1653> INFO - LaTeX decoding ...
+[4141] bibtex.pm:1471> INFO - Found BibTeX data source 'dtk-bibliography.bib'
+[12664] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[12664] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[12664] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[12664] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[14358] bbl.pm:652> INFO - Writing 'dtk-bibliography.bbl' with encoding 'UTF-8'
+[15239] bbl.pm:755> INFO - Output to dtk-bibliography.bbl

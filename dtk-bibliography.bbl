@@ -19,6 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{dtk04.1:thanh:projektfondsantrag}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0b0b74042408702e16e185daa7d8d66f}{%
+           family={\HanTheThanh},
+           familyi={\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b0b74042408702e16e185daa7d8d66f}
+      \strng{fullhash}{0b0b74042408702e16e185daa7d8d66f}
+      \strng{bibnamehash}{0b0b74042408702e16e185daa7d8d66f}
+      \strng{authorbibnamehash}{0b0b74042408702e16e185daa7d8d66f}
+      \strng{authornamehash}{0b0b74042408702e16e185daa7d8d66f}
+      \strng{authorfullhash}{0b0b74042408702e16e185daa7d8d66f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{Projektfonds -- Antrag auf Förderung}
+      \field{volume}{16}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{16\bibrangedash 17}
+      \range{pages}{2}
+      \keyw{hinterbuehne}
+    \endentry
     \entry{dtk04.3:abels.uslar.beenken:amatex}{article}{}
       \name{author}{3}{}{%
         {{hash=1caa5895dd95ea1002f485cc57d237b6}{%
@@ -1012,6 +1042,39 @@
       \field{pages}{16\bibrangedash 29}
       \range{pages}{14}
       \keyw{hinterbuehne}
+    \endentry
+    \entry{dtk20.1:behrendt:guit}{article}{}
+      \name{author}{1}{}{%
+        {{hash=454c2c907d5a107d615064a320b016b8}{%
+           family={Behrendt},
+           familyi={B\bibinitperiod},
+           given={Doris},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{454c2c907d5a107d615064a320b016b8}
+      \strng{fullhash}{454c2c907d5a107d615064a320b016b8}
+      \strng{bibnamehash}{454c2c907d5a107d615064a320b016b8}
+      \strng{authorbibnamehash}{454c2c907d5a107d615064a320b016b8}
+      \strng{authornamehash}{454c2c907d5a107d615064a320b016b8}
+      \strng{authorfullhash}{454c2c907d5a107d615064a320b016b8}
+      \field{extraname}{7}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Tagungsbericht GuIT Meeting}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{8\bibrangedash 13}
+      \range{pages}{6}
+      \keyw{tagungsbericht}
     \endentry
     \entry{dtk12.2:behrendt.leidig:bericht}{article}{}
       \name{author}{2}{}{%
@@ -7057,6 +7120,39 @@
       \range{pages}{19}
       \keyw{bretter}
     \endentry
+    \entry{dtk20.1:entenmann:luamplib}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2b406f7dd04758bc8895b164b94b2252}{%
+           family={Entenmann},
+           familyi={E\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b406f7dd04758bc8895b164b94b2252}
+      \strng{fullhash}{2b406f7dd04758bc8895b164b94b2252}
+      \strng{bibnamehash}{2b406f7dd04758bc8895b164b94b2252}
+      \strng{authorbibnamehash}{2b406f7dd04758bc8895b164b94b2252}
+      \strng{authornamehash}{2b406f7dd04758bc8895b164b94b2252}
+      \strng{authorfullhash}{2b406f7dd04758bc8895b164b94b2252}
+      \field{extraname}{4}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Einbetten von METAPOST in ein \LaTeX-Dokument mit Lua\TeX{} und luamplib}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{14\bibrangedash 30}
+      \range{pages}{17}
+      \keyw{bretter}
+    \endentry
     \entry{dtk91.4:erlmeier:amiga}{article}{}
       \name{author}{1}{}{%
         {{hash=c1ca9f50963037ab9e0db2460c3241f6}{%
@@ -10150,6 +10246,39 @@
       \field{dateera}{ce}
       \true{nocite}
       \field{pages}{75\bibrangedash 77}
+      \range{pages}{3}
+      \keyw{fremdebuehne}
+    \endentry
+    \entry{dtk20.1:fenn:ctan}{article}{}
+      \name{author}{1}{}{%
+        {{hash=343fb8c05e8a7ae68565e5e859d65090}{%
+           family={Fenn},
+           familyi={F\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{fullhash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{bibnamehash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{authorbibnamehash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{authornamehash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{authorfullhash}{343fb8c05e8a7ae68565e5e859d65090}
+      \field{extraname}{68}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Neue Pakete auf CTAN}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{43\bibrangedash 45}
       \range{pages}{3}
       \keyw{fremdebuehne}
     \endentry
@@ -19705,73 +19834,6 @@
       \range{pages}{8}
       \keyw{theatertage}
     \endentry
-    \entry{dtk91.1:kruljac-dronskowski:grusswort}{article}{}
-      \name{author}{1}{}{%
-        {{hash=9a77859eb6d22cdbfc6884eb14b6f381}{%
-           family={Kruljac-Dronskowski},
-           familyi={K\bibinithyphendelim D\bibinitperiod},
-           given={Gabriele},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{fullhash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{bibnamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{authorbibnamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{authornamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{authorfullhash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \field{extraname}{1}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{5}
-      \field{number}{1}
-      \field{title}{Grußwort zum Abschied}
-      \field{volume}{3}
-      \field{year}{1991}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{11\bibrangedash 12}
-      \range{pages}{2}
-      \keyw{grusswort}
-    \endentry
-    \entry{dtk14.2:kruljac-dronskowski:gruendungsmitglied}{article}{}
-      \name{author}{1}{}{%
-        {{hash=9a77859eb6d22cdbfc6884eb14b6f381}{%
-           family={Kruljac-Dronskowski},
-           familyi={K\bibinithyphendelim D\bibinitperiod},
-           given={Gabriele},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{fullhash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{bibnamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{authorbibnamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{authornamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \strng{authorfullhash}{9a77859eb6d22cdbfc6884eb14b6f381}
-      \field{extraname}{2}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{5}
-      \field{number}{2}
-      \field{subtitle}{Gabriele Kruljac-Dronskowski}
-      \field{title}{Die Gründungsmitglieder}
-      \field{volume}{26}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{25\bibrangedash 26}
-      \range{pages}{2}
-      \keyw{hinterbuehne}
-    \endentry
     \entry{dtk90.1:kruljac:bibtex}{article}{}
       \name{author}{1}{}{%
         {{hash=1426849d82890f0c0b73489446c3bd78}{%
@@ -19919,6 +19981,73 @@
       \field{pages}{3}
       \range{pages}{1}
       \keyw{editorial}
+    \endentry
+    \entry{dtk91.1:kruljac-dronskowski:grusswort}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9a77859eb6d22cdbfc6884eb14b6f381}{%
+           family={Kruljac-Dronskowski},
+           familyi={K\bibinithyphendelim D\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{fullhash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{bibnamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{authorbibnamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{authornamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{authorfullhash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{Grußwort zum Abschied}
+      \field{volume}{3}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{11\bibrangedash 12}
+      \range{pages}{2}
+      \keyw{grusswort}
+    \endentry
+    \entry{dtk14.2:kruljac-dronskowski:gruendungsmitglied}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9a77859eb6d22cdbfc6884eb14b6f381}{%
+           family={Kruljac-Dronskowski},
+           familyi={K\bibinithyphendelim D\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{fullhash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{bibnamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{authorbibnamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{authornamehash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \strng{authorfullhash}{9a77859eb6d22cdbfc6884eb14b6f381}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
+      \field{subtitle}{Gabriele Kruljac-Dronskowski}
+      \field{title}{Die Gründungsmitglieder}
+      \field{volume}{26}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{25\bibrangedash 26}
+      \range{pages}{2}
+      \keyw{hinterbuehne}
     \endentry
     \entry{dtk92.3:kuchel.muus:kalender}{article}{}
       \name{author}{2}{}{%
@@ -25086,6 +25215,237 @@
       \range{pages}{2}
       \keyw{fremdebuehne}
     \endentry
+    \entry{dtk12.3:meyer:luatex}{article}{}
+      \name{author}{1}{}{%
+        {{hash=18552ed1a2b7f50128b568ccc99e9454}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{18552ed1a2b7f50128b568ccc99e9454}
+      \strng{fullhash}{18552ed1a2b7f50128b568ccc99e9454}
+      \strng{bibnamehash}{18552ed1a2b7f50128b568ccc99e9454}
+      \strng{authorbibnamehash}{18552ed1a2b7f50128b568ccc99e9454}
+      \strng{authornamehash}{18552ed1a2b7f50128b568ccc99e9454}
+      \strng{authorfullhash}{18552ed1a2b7f50128b568ccc99e9454}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{Meine ersten Schritte mit {\LuaTeX}}
+      \field{volume}{24}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{60\bibrangedash 67}
+      \range{pages}{8}
+      \keyw{bretter}
+    \endentry
+    \entry{dtk14.1:meyer:schulimkerei}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima Hilarius},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Honigetiketten für die Schulimkerei}
+      \field{volume}{26}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{26\bibrangedash 30}
+      \range{pages}{5}
+      \keyw{bretter}
+    \endentry
+    \entry{dtk15.1:meyer:editoren}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima Hilarius},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{{\TeX}nik im Wolkenkuckucksheim? Webbasierte \LaTeX{}-Editoren in Überblick}
+      \field{volume}{27}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{10\bibrangedash 17}
+      \range{pages}{8}
+      \keyw{bretter}
+    \endentry
+    \entry{dtk16.1:meyer:zeugniserstellung}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima Hilarius},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{\LaTeX{} in der Schule: Zeugniserstellung}
+      \field{volume}{28}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{12\bibrangedash 20}
+      \range{pages}{9}
+      \keyw{bretter}
+    \endentry
+    \entry{dtk17.2:meyer:bibelstellen}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima Hilarius},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \field{extraname}{5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Bibelstellen mit \LaTeX{} verarbeiten und durch Register erschließen}
+      \field{volume}{29}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{48\bibrangedash 60}
+      \range{pages}{13}
+    \endentry
+    \entry{dtk17.2:meyer:geisteswissenschaftler}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima Hilarius},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \field{extraname}{6}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{\LaTeX{} für Geisteswissenschaftler -- Ein Projekt zur zielgruppenspezifischen Dokumentation von \TeX \& Co.}
+      \field{volume}{29}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{34\bibrangedash 38}
+      \range{pages}{5}
+    \endentry
+    \entry{dtk18.2:meyer:literatur}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima Hilarius},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
+      \field{extraname}{7}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Liste der nicht benutzten Literatur ausgeben}
+      \field{volume}{30}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{37\bibrangedash 39}
+      \range{pages}{3}
+      \keyw{bretter}
+    \endentry
     \entry{dtk91.4:meyer-lerbs:macintosh}{article}{}
       \name{author}{1}{}{%
         {{hash=2d77277fdd041b497c06a269d5386567}{%
@@ -25495,237 +25855,6 @@
       \field{pages}{58\bibrangedash 59}
       \range{pages}{2}
       \keyw{beiprogramm}
-    \endentry
-    \entry{dtk12.3:meyer:luatex}{article}{}
-      \name{author}{1}{}{%
-        {{hash=18552ed1a2b7f50128b568ccc99e9454}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Ralf},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{18552ed1a2b7f50128b568ccc99e9454}
-      \strng{fullhash}{18552ed1a2b7f50128b568ccc99e9454}
-      \strng{bibnamehash}{18552ed1a2b7f50128b568ccc99e9454}
-      \strng{authorbibnamehash}{18552ed1a2b7f50128b568ccc99e9454}
-      \strng{authornamehash}{18552ed1a2b7f50128b568ccc99e9454}
-      \strng{authorfullhash}{18552ed1a2b7f50128b568ccc99e9454}
-      \field{extraname}{1}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{8}
-      \field{number}{3}
-      \field{title}{Meine ersten Schritte mit {\LuaTeX}}
-      \field{volume}{24}
-      \field{year}{2012}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{60\bibrangedash 67}
-      \range{pages}{8}
-      \keyw{bretter}
-    \endentry
-    \entry{dtk14.1:meyer:schulimkerei}{article}{}
-      \name{author}{1}{}{%
-        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Thomas\bibnamedelima Hilarius},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{2}
-      \field{number}{1}
-      \field{title}{Honigetiketten für die Schulimkerei}
-      \field{volume}{26}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{26\bibrangedash 30}
-      \range{pages}{5}
-      \keyw{bretter}
-    \endentry
-    \entry{dtk15.1:meyer:editoren}{article}{}
-      \name{author}{1}{}{%
-        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Thomas\bibnamedelima Hilarius},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \field{extraname}{3}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{2}
-      \field{number}{1}
-      \field{title}{{\TeX}nik im Wolkenkuckucksheim? Webbasierte \LaTeX{}-Editoren in Überblick}
-      \field{volume}{27}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{10\bibrangedash 17}
-      \range{pages}{8}
-      \keyw{bretter}
-    \endentry
-    \entry{dtk16.1:meyer:zeugniserstellung}{article}{}
-      \name{author}{1}{}{%
-        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Thomas\bibnamedelima Hilarius},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \field{extraname}{4}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{2}
-      \field{number}{1}
-      \field{title}{\LaTeX{} in der Schule: Zeugniserstellung}
-      \field{volume}{28}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{12\bibrangedash 20}
-      \range{pages}{9}
-      \keyw{bretter}
-    \endentry
-    \entry{dtk17.2:meyer:bibelstellen}{article}{}
-      \name{author}{1}{}{%
-        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Thomas\bibnamedelima Hilarius},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \field{extraname}{5}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{6}
-      \field{number}{2}
-      \field{title}{Bibelstellen mit \LaTeX{} verarbeiten und durch Register erschließen}
-      \field{volume}{29}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{48\bibrangedash 60}
-      \range{pages}{13}
-    \endentry
-    \entry{dtk17.2:meyer:geisteswissenschaftler}{article}{}
-      \name{author}{1}{}{%
-        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Thomas\bibnamedelima Hilarius},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \field{extraname}{6}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{6}
-      \field{number}{2}
-      \field{title}{\LaTeX{} für Geisteswissenschaftler -- Ein Projekt zur zielgruppenspezifischen Dokumentation von \TeX \& Co.}
-      \field{volume}{29}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{34\bibrangedash 38}
-      \range{pages}{5}
-    \endentry
-    \entry{dtk18.2:meyer:literatur}{article}{}
-      \name{author}{1}{}{%
-        {{hash=f9e65fe39b80aa12f2168c0eb8652312}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Thomas\bibnamedelima Hilarius},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{fullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{bibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorbibnamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authornamehash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \strng{authorfullhash}{f9e65fe39b80aa12f2168c0eb8652312}
-      \field{extraname}{7}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{3}
-      \field{number}{2}
-      \field{title}{Liste der nicht benutzten Literatur ausgeben}
-      \field{volume}{30}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{37\bibrangedash 39}
-      \range{pages}{3}
-      \keyw{bretter}
     \endentry
     \entry{dtk90.1:mid:publisher}{article}{}
       \name{author}{1}{}{%
@@ -26675,6 +26804,38 @@
       \field{pages}{25\bibrangedash 33}
       \range{pages}{9}
       \keyw{hinterbuehne}
+    \endentry
+    \entry{dtk20.1:munn:leitfaden}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2dc5d87c60c78a6ff30173abe6baf77a}{%
+           family={Munn},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2dc5d87c60c78a6ff30173abe6baf77a}
+      \strng{fullhash}{2dc5d87c60c78a6ff30173abe6baf77a}
+      \strng{bibnamehash}{2dc5d87c60c78a6ff30173abe6baf77a}
+      \strng{authorbibnamehash}{2dc5d87c60c78a6ff30173abe6baf77a}
+      \strng{authornamehash}{2dc5d87c60c78a6ff30173abe6baf77a}
+      \strng{authorfullhash}{2dc5d87c60c78a6ff30173abe6baf77a}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Ein zweiseitiger Leitfaden für \LaTeX-Pakete}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{35\bibrangedash 36}
+      \range{pages}{2}
+      \keyw{tippstricks}
     \endentry
     \entry{dtk17.2:foerderung}{article}{}
       \name{author}{1}{}{%
@@ -30965,6 +31126,39 @@
       \range{pages}{3}
       \keyw{bretter}
     \endentry
+    \entry{dtk20.1:niepraschk:leitfaden}{article}{}
+      \name{author}{1}{}{%
+        {{hash=988936c6b70a5615defd95bdb950dfad}{%
+           family={Niepraschk},
+           familyi={N\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{988936c6b70a5615defd95bdb950dfad}
+      \strng{fullhash}{988936c6b70a5615defd95bdb950dfad}
+      \strng{bibnamehash}{988936c6b70a5615defd95bdb950dfad}
+      \strng{authorbibnamehash}{988936c6b70a5615defd95bdb950dfad}
+      \strng{authornamehash}{988936c6b70a5615defd95bdb950dfad}
+      \strng{authorfullhash}{988936c6b70a5615defd95bdb950dfad}
+      \field{extraname}{46}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Die Schriftfamilie \enquote{JetBrains Mono}}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{37}
+      \range{pages}{1}
+      \keyw{tippstricks}
+    \endentry
     \entry{dtk13.2:niepraschk.voss:test}{article}{}
       \name{author}{2}{}{%
         {{hash=988936c6b70a5615defd95bdb950dfad}{%
@@ -32717,18 +32911,18 @@
     \endentry
     \entry{dtk15.2:peischl:stralsund}{article}{}
       \name{author}{1}{}{%
-        {{hash=b4ce95b1d0882c5f32be084f2ec87f2b}{%
+        {{hash=c05266a1c41faa3599e3a4e2ade89b55}{%
            family={Peischl},
            familyi={P\bibinitperiod},
-           given={DTK o},
+           given={Marei},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{b4ce95b1d0882c5f32be084f2ec87f2b}
-      \strng{fullhash}{b4ce95b1d0882c5f32be084f2ec87f2b}
-      \strng{bibnamehash}{b4ce95b1d0882c5f32be084f2ec87f2b}
-      \strng{authorbibnamehash}{b4ce95b1d0882c5f32be084f2ec87f2b}
-      \strng{authornamehash}{b4ce95b1d0882c5f32be084f2ec87f2b}
-      \strng{authorfullhash}{b4ce95b1d0882c5f32be084f2ec87f2b}
+      \strng{namehash}{c05266a1c41faa3599e3a4e2ade89b55}
+      \strng{fullhash}{c05266a1c41faa3599e3a4e2ade89b55}
+      \strng{bibnamehash}{c05266a1c41faa3599e3a4e2ade89b55}
+      \strng{authorbibnamehash}{c05266a1c41faa3599e3a4e2ade89b55}
+      \strng{authornamehash}{c05266a1c41faa3599e3a4e2ade89b55}
+      \strng{authorfullhash}{c05266a1c41faa3599e3a4e2ade89b55}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{extradatescope}{labelyear}
@@ -33310,36 +33504,6 @@
       \field{pages}{121}
       \range{pages}{1}
       \keyw{leserbriefe}
-    \endentry
-    \entry{dtk04.1:thanh:projektfondsantrag}{article}{}
-      \name{author}{1}{}{%
-        {{hash=0b0b74042408702e16e185daa7d8d66f}{%
-           family={\HanTheThanh},
-           familyi={\bibinitperiod}}}%
-      }
-      \strng{namehash}{0b0b74042408702e16e185daa7d8d66f}
-      \strng{fullhash}{0b0b74042408702e16e185daa7d8d66f}
-      \strng{bibnamehash}{0b0b74042408702e16e185daa7d8d66f}
-      \strng{authorbibnamehash}{0b0b74042408702e16e185daa7d8d66f}
-      \strng{authornamehash}{0b0b74042408702e16e185daa7d8d66f}
-      \strng{authorfullhash}{0b0b74042408702e16e185daa7d8d66f}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{DTK}
-      \field{month}{5}
-      \field{number}{1}
-      \field{title}{Projektfonds -- Antrag auf Förderung}
-      \field{volume}{16}
-      \field{year}{2004}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{16\bibrangedash 17}
-      \range{pages}{2}
-      \keyw{hinterbuehne}
     \endentry
     \entry{dtk92.3:raichle:umlaute}{article}{}
       \name{author}{1}{}{%
@@ -35376,6 +35540,39 @@
       \true{nocite}
       \field{pages}{29\bibrangedash 34}
       \range{pages}{6}
+      \keyw{bretter}
+    \endentry
+    \entry{dtk20.1:roemer:wiederverwendbarkeit}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6ee158c95c71e61c0cd176806f394f1d}{%
+           family={Römer},
+           familyi={R\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ee158c95c71e61c0cd176806f394f1d}
+      \strng{fullhash}{6ee158c95c71e61c0cd176806f394f1d}
+      \strng{bibnamehash}{6ee158c95c71e61c0cd176806f394f1d}
+      \strng{authorbibnamehash}{6ee158c95c71e61c0cd176806f394f1d}
+      \strng{authornamehash}{6ee158c95c71e61c0cd176806f394f1d}
+      \strng{authorfullhash}{6ee158c95c71e61c0cd176806f394f1d}
+      \field{extraname}{20}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Diskussion um die Wiederverwendbarkeit von älteren Dokumenten}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{31\bibrangedash 34}
+      \range{pages}{4}
       \keyw{bretter}
     \endentry
     \entry{dtk08.1:hoeppner.roemer:dante2008}{article}{}
@@ -42197,6 +42394,39 @@
       \range{pages}{3}
       \keyw{hinterbuehne}
     \endentry
+    \entry{dtk20.1:sievers:grusswort}{article}{}
+      \name{author}{1}{}{%
+        {{hash=331ce2f5d55758977d34824cb72d795d}{%
+           family={Sievers},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{fullhash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{bibnamehash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{authorbibnamehash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{authornamehash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{authorfullhash}{331ce2f5d55758977d34824cb72d795d}
+      \field{extraname}{36}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Grußwort}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{4\bibrangedash 5}
+      \range{pages}{2}
+      \keyw{grusswort}
+    \endentry
     \entry{dtk17.3:sieversfischer:einladung}{article}{}
       \name{author}{2}{}{%
         {{hash=331ce2f5d55758977d34824cb72d795d}{%
@@ -42725,6 +42955,43 @@
       \field{pages}{7\bibrangedash 8}
       \range{pages}{2}
       \keyw{callforpapers}
+    \endentry
+    \entry{dtk20.1:sieverstantau:einladung}{article}{}
+      \name{author}{2}{}{%
+        {{hash=331ce2f5d55758977d34824cb72d795d}{%
+           family={Sievers},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=129e88d9b4e0ba07ca911d6e9aebfaca}{%
+           family={Tantau},
+           familyi={T\bibinitperiod},
+           given={Till},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba49b6f3b5322fadc3d7cd780f841ff8}
+      \strng{fullhash}{ba49b6f3b5322fadc3d7cd780f841ff8}
+      \strng{bibnamehash}{ba49b6f3b5322fadc3d7cd780f841ff8}
+      \strng{authorbibnamehash}{ba49b6f3b5322fadc3d7cd780f841ff8}
+      \strng{authornamehash}{ba49b6f3b5322fadc3d7cd780f841ff8}
+      \strng{authorfullhash}{ba49b6f3b5322fadc3d7cd780f841ff8}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Einladung zur Frühjahrstagung 2020 und 62. Mitgliederversammlung von DANTE e.V. an der Universität zu Lübeck}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{6\bibrangedash 7}
+      \range{pages}{2}
+      \keyw{einladung}
     \endentry
     \entry{dtk12.3:sievers.voss:einladung}{article}{}
       \name{author}{2}{}{%
@@ -50685,6 +50952,74 @@
       \field{pages}{37\bibrangedash 40}
       \range{pages}{4}
       \keyw{tippstricks}
+    \endentry
+    \entry{dtk20.1:voss:editorial}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e081108643ae4b78a904ec3a607d3d71}{%
+           family={Voß},
+           familyi={V\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{fullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{bibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorbibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authornamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorfullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \field{extraname}{140}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Editorial}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{3}
+      \range{pages}{1}
+      \keyw{editorial}
+    \endentry
+    \entry{dtk20.1:voss:fremdebuehnen}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e081108643ae4b78a904ec3a607d3d71}{%
+           family={Voß},
+           familyi={V\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{fullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{bibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorbibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authornamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorfullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \field{extraname}{141}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Im Netz gefunden}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{38\bibrangedash 42}
+      \range{pages}{5}
+      \keyw{fremdebuehne}
     \endentry
     \entry{dtk06.3:voss.siart:matthias}{article}{}
       \name{author}{2}{}{%
