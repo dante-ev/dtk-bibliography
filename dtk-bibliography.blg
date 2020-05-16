@@ -1,17 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'dtk-bibliography.blg'
-[105] biber-MSWIN32:322> INFO - === 
-[131] Biber.pm:415> INFO - Reading 'dtk-bibliography.bcf'
-[267] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[292] Biber.pm:4256> INFO - Processing section 0
-[293] Utils.pm:75> INFO - Globbing data source 'dtk-bibliography.bib'
-[318] Utils.pm:91> INFO - Globbed data source 'dtk-bibliography.bib' to dtk-bibliography.bib
-[335] Biber.pm:4455> INFO - Looking for bibtex format file 'dtk-bibliography.bib' for section 0
-[395] bibtex.pm:1653> INFO - LaTeX decoding ...
-[4141] bibtex.pm:1471> INFO - Found BibTeX data source 'dtk-bibliography.bib'
-[12664] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[12664] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[12664] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[12664] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[14358] bbl.pm:652> INFO - Writing 'dtk-bibliography.bbl' with encoding 'UTF-8'
-[15239] bbl.pm:755> INFO - Output to dtk-bibliography.bbl
+[1] Config.pm:307> INFO - Logfile is 'dtk-bibliography.blg'
+[85] biber-MSWIN32:322> INFO - === 
+[107] Biber.pm:415> INFO - Reading 'dtk-bibliography.bcf'
+[226] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[246] Biber.pm:4256> INFO - Processing section 0
+[247] Utils.pm:75> INFO - Globbing data source 'dtk-bibliography.bib'
+[258] Utils.pm:91> INFO - Globbed data source 'dtk-bibliography.bib' to dtk-bibliography.bib
+[274] Biber.pm:4455> INFO - Looking for bibtex format file 'dtk-bibliography.bib' for section 0
+[339] bibtex.pm:1653> INFO - LaTeX decoding ...
+[4006] bibtex.pm:1471> INFO - Found BibTeX data source 'dtk-bibliography.bib'
+[9569] Utils.pm:304> WARN - BibTeX subsystem: C:\Users\Uwe\AppData\Local\Temp\biber_tmp_942_\dtk-bibliography.bib_12480.utf8, line 17743, warning: 37 characters of junk seen at toplevel
+[11718] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[11718] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[11719] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[11719] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[13362] bbl.pm:652> INFO - Writing 'dtk-bibliography.bbl' with encoding 'UTF-8'
+[14193] bbl.pm:755> INFO - Output to dtk-bibliography.bbl
+[14198] Biber.pm:128> INFO - WARNINGS: 1

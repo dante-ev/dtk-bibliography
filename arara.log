@@ -1,121 +1,212 @@
-08 Mär 2020 13:01:46.241 INFO  - Welcome to arara 4.0 (revision 2)!
-08 Mär 2020 13:01:46.242 INFO  - -----------------------------------------------------------------
-08 Mär 2020 13:01:46.244 INFO  - ::: arara @ C:\texlive\2019\texmf-dist\scripts\arara
-08 Mär 2020 13:01:46.244 INFO  - ::: Java 1.8.0_171, Oracle Corporation
-08 Mär 2020 13:01:46.244 INFO  - ::: C:\Program Files (x86)\Java\jre1.8.0_171
-08 Mär 2020 13:01:46.244 INFO  - ::: Windows 10, x86, 10.0
-08 Mär 2020 13:01:46.244 INFO  - ::: user.home @ C:\Users\Uwe
-08 Mär 2020 13:01:46.244 INFO  - ::: user.dir @ E:\Repos\dtk-bibliography.git\trunk
-08 Mär 2020 13:01:46.244 INFO  - ::: CF @ [none]
-08 Mär 2020 13:01:46.244 INFO  - -----------------------------------------------------------------
-08 Mär 2020 13:01:46.244 INFO  - Processing 'dtk-bibliography.tex' (size: 814 bytes, last modified: 05/23/2019 04:39:26), please wait.
-08 Mär 2020 13:01:46.249 INFO  - I found a potential pattern in line 2: pdflatex
-08 Mär 2020 13:01:46.249 INFO  - I found a potential pattern in line 3: biber
-08 Mär 2020 13:01:46.249 INFO  - I found a potential pattern in line 4: pdflatex
-08 Mär 2020 13:01:46.249 INFO  - I found a potential pattern in line 5: pdflatex
-08 Mär 2020 13:01:46.251 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [2] }
-08 Mär 2020 13:01:46.251 INFO  - I found a potential directive: Directive: { identifier: biber, parameters: {}, conditional: { NONE }, lines: [3] }
-08 Mär 2020 13:01:46.251 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [4] }
-08 Mär 2020 13:01:46.251 INFO  - I found a potential directive: Directive: { identifier: pdflatex, parameters: {}, conditional: { NONE }, lines: [5] }
-08 Mär 2020 13:01:46.251 INFO  - All directives were validated. We are good to go.
-08 Mär 2020 13:01:46.251 INFO  - -------------------------- DIRECTIVES ---------------------------
-08 Mär 2020 13:01:46.251 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [2] }
-08 Mär 2020 13:01:46.251 INFO  - Directive: { identifier: biber, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [3] }
-08 Mär 2020 13:01:46.251 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [4] }
-08 Mär 2020 13:01:46.251 INFO  - Directive: { identifier: pdflatex, parameters: {reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex, file=dtk-bibliography.tex}, conditional: { NONE }, lines: [5] }
-08 Mär 2020 13:01:46.251 INFO  - -----------------------------------------------------------------
-08 Mär 2020 13:01:46.252 INFO  - I am ready to interpret rule 'pdflatex'.
-08 Mär 2020 13:01:46.254 INFO  - Rule location: 'C:\texlive\2019\texmf-dist\scripts\arara\rules'
-08 Mär 2020 13:01:46.424 INFO  - I am ready to interpret task 'PDFLaTeX engine' from rule 'PDFLaTeX'.
-08 Mär 2020 13:01:46.425 INFO  - System command: [ pdflatex, dtk-bibliography.tex ]
-08 Mär 2020 13:01:47.769 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
-08 Mär 2020 13:01:47.770 INFO  - This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex)
+16 Mai 2020 08:56:07.785 INFO  - Welcome to arara 5.1.3!
+16 Mai 2020 08:56:07.787 INFO  - -----------------------------------------------------------------
+16 Mai 2020 08:56:07.787 DEBUG - ::: arara @ C:\texlive\2020\texmf-dist\scripts\arara
+16 Mai 2020 08:56:07.788 DEBUG - ::: Java 1.8.0_171, Oracle Corporation
+16 Mai 2020 08:56:07.789 DEBUG - ::: C:\Program Files (x86)\Java\jre1.8.0_171
+16 Mai 2020 08:56:07.789 DEBUG - ::: Windows 10, x86, 10.0
+16 Mai 2020 08:56:07.789 DEBUG - ::: user.home @ C:\Users\Uwe
+16 Mai 2020 08:56:07.789 DEBUG - ::: CF @ [none]
+16 Mai 2020 08:56:07.789 DEBUG - -----------------------------------------------------------------
+16 Mai 2020 08:56:07.789 INFO  - Processing 'dtk-bibliography.tex' (size: 814 B, last modified: 05/23/2019 04:39:26), please wait.
+16 Mai 2020 08:56:07.793 INFO  - I found a potential pattern in line 2: pdflatex
+16 Mai 2020 08:56:07.793 INFO  - I found a potential pattern in line 3: biber
+16 Mai 2020 08:56:07.793 INFO  - I found a potential pattern in line 4: pdflatex
+16 Mai 2020 08:56:07.793 INFO  - I found a potential pattern in line 5: pdflatex
+16 Mai 2020 08:56:07.814 INFO  - I found a potential directive: Directive(identifier=pdflatex, parameters={}, conditional={ NONE }, lineNumbers=[2])
+16 Mai 2020 08:56:07.814 INFO  - I found a potential directive: Directive(identifier=biber, parameters={}, conditional={ NONE }, lineNumbers=[3])
+16 Mai 2020 08:56:07.814 INFO  - I found a potential directive: Directive(identifier=pdflatex, parameters={}, conditional={ NONE }, lineNumbers=[4])
+16 Mai 2020 08:56:07.814 INFO  - I found a potential directive: Directive(identifier=pdflatex, parameters={}, conditional={ NONE }, lineNumbers=[5])
+16 Mai 2020 08:56:07.814 INFO  - All directives were validated. We are good to go.
+16 Mai 2020 08:56:07.815 INFO  - -------------------------- DIRECTIVES ---------------------------
+16 Mai 2020 08:56:07.815 INFO  - Directive(identifier=pdflatex, parameters={reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex}, conditional={ NONE }, lineNumbers=[2])
+16 Mai 2020 08:56:07.815 INFO  - Directive(identifier=biber, parameters={reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex}, conditional={ NONE }, lineNumbers=[3])
+16 Mai 2020 08:56:07.815 INFO  - Directive(identifier=pdflatex, parameters={reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex}, conditional={ NONE }, lineNumbers=[4])
+16 Mai 2020 08:56:07.815 INFO  - Directive(identifier=pdflatex, parameters={reference=E:\Repos\dtk-bibliography.git\trunk\dtk-bibliography.tex}, conditional={ NONE }, lineNumbers=[5])
+16 Mai 2020 08:56:07.815 INFO  - -----------------------------------------------------------------
+16 Mai 2020 08:56:07.816 INFO  - I am ready to interpret rule 'pdflatex'.
+16 Mai 2020 08:56:07.817 INFO  - Rule location: 'C:\texlive\2020\texmf-dist\scripts\arara\rules'
+16 Mai 2020 08:56:07.958 INFO  - I am ready to interpret task 'PDFLaTeX engine' from rule 'PDFLaTeX'.
+16 Mai 2020 08:56:07.959 INFO  - System command: [ pdflatex, dtk-bibliography.tex ] @ 
+16 Mai 2020 08:56:20.208 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
+16 Mai 2020 08:56:20.208 INFO  - This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./dtk-bibliography.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-02-25>
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2020/01/24 v3.29 KOMA-Script document class (article)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
-(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def)
-(c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
-(c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
-(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)))))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
-(c:/texlive/2019/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-(c:/texlive/2019/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-(c:/texlive/2019/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
-(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def))
-(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def)
+L3 programming layer <2020-05-05>
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2020/04/19 v3.30 KOMA-Script document class (article)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrbase.sty
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/tocbasic.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/typearea.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+(c:/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+(c:/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def))
+(c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngerman.ldf
+(c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngermanb.ldf)))
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+(c:/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def))
+(c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def)
 (./dtk-authoryear.dbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def)
 (./dtk-authoryear.bbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg))
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def)
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg))
-(c:/texlive/2019/texmf-dist/tex/latex/dtk/dtk-logos.sty
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifluatex.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/fetamont/fetamont.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/hologo/hologo.sty
-(c:/texlive/2019/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/dantelogo/dantelogo.sty
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def)
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(c:/texlive/2020/texmf-dist/tex/latex/dtk/dtk-logos.sty
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/fetamont/fetamont.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/hologo/hologo.sty
+(c:/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/dantelogo/dantelogo.sty
 `dantelogo' v0.03, 2015/08/12 macro for DANTE's logo (hv)
-We run (pdf)latex ...  (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty))
- (c:/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
+We run (pdf)latex ...  (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty))
+ (c:/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
 (./dtk-bibliography.aux)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx))
-No file dtk-bibliography.bbl.
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx))
+(./dtk-bibliography.bbl) (c:/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd)
 
-LaTeX Warning: Empty bibliography on input line 27.
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
 
-(./dtk-bibliography.aux)
+[1{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(c:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd) [2]
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[3] [4] [5] [6] [7] [8] [9] [10]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                dtk-bibliography
-(biblatex)                and rerun LaTeX afterwards.
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
 
- )
-No pages of output.
+[11] [12] [13] [14] [15] (c:/texlive/2020/texmf-dist/tex/latex/mflogo/ulogo.fd)
+ [16]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[17] [18] [19] [20] [21] [22] [23] [24] [25]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[26] [27] [28]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[29] [30] [31] [32] [33]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[34]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[35] [36] [37] [38] [39] [40] [41] [42]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[43] [44] [45] [46] [47] [48]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[49] [50]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[51] [52]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[53] [54] [55] [56] [57]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[58] (c:/texlive/2020/texmf-dist/tex/latex/dantelogo/T1DANTE.fd) [59] [60]
+[61]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[62] [63]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[64] [65] [66] [67] [68] (./dtk-bibliography.aux) ){c:/texlive/2020/texmf-dist/
+fonts/enc/dvips/dantelogo/dante.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips
+/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/dantel
+ogo/DANTE-Italic.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1
+/hoekwater/mflogo-font/logosl10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/pub
+lic/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
+er/sfit1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm120
+0.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb><c:/
+texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/20
+20/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2020/texmf-d
+ist/fonts/type1/public/cm-super/sfti0800.pfb><c:/texlive/2020/texmf-dist/fonts/
+type1/public/cm-super/sfti1200.pfb>
+Output written on dtk-bibliography.pdf (68 pages, 363230 bytes).
 Transcript written on dtk-bibliography.log.
 
-08 Mär 2020 13:01:47.770 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
-08 Mär 2020 13:01:47.772 INFO  - Task result: SUCCESS
-08 Mär 2020 13:01:47.773 INFO  - I am ready to interpret rule 'biber'.
-08 Mär 2020 13:01:47.773 INFO  - Rule location: 'C:\texlive\2019\texmf-dist\scripts\arara\rules'
-08 Mär 2020 13:01:47.782 INFO  - I am ready to interpret task 'The Biber reference management software' from rule 'Biber'.
-08 Mär 2020 13:01:47.782 INFO  - System command: [ biber, dtk-bibliography ]
-08 Mär 2020 13:02:31.410 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
-08 Mär 2020 13:02:31.411 INFO  - INFO - This is Biber 2.14
+16 Mai 2020 08:56:20.208 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
+16 Mai 2020 08:56:20.210 INFO  - Task result: SUCCESS
+16 Mai 2020 08:56:20.210 INFO  - I am ready to interpret rule 'biber'.
+16 Mai 2020 08:56:20.210 INFO  - Rule location: 'C:\texlive\2020\texmf-dist\scripts\arara\rules'
+16 Mai 2020 08:56:20.234 INFO  - I am ready to interpret task 'The Biber reference management software' from rule 'Biber'.
+16 Mai 2020 08:56:20.234 INFO  - System command: [ biber, dtk-bibliography ] @ 
+16 Mai 2020 08:56:36.589 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
+16 Mai 2020 08:56:36.589 INFO  - INFO - This is Biber 2.14
 INFO - Logfile is 'dtk-bibliography.blg'
 INFO - Reading 'dtk-bibliography.bcf'
 INFO - Using all citekeys in bib section 0
@@ -125,89 +216,90 @@ INFO - Globbed data source 'dtk-bibliography.bib' to dtk-bibliography.bib
 INFO - Looking for bibtex format file 'dtk-bibliography.bib' for section 0
 INFO - LaTeX decoding ...
 INFO - Found BibTeX data source 'dtk-bibliography.bib'
+WARN - BibTeX subsystem: C:\Users\Uwe\AppData\Local\Temp\biber_tmp_942_\dtk-bibliography.bib_12480.utf8, line 17743, warning: 37 characters of junk seen at toplevel
 INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dtk-bibliography.bbl' with encoding 'UTF-8'
 INFO - Output to dtk-bibliography.bbl
+INFO - WARNINGS: 1
 
-08 Mär 2020 13:02:31.411 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
-08 Mär 2020 13:02:31.411 INFO  - Task result: SUCCESS
-08 Mär 2020 13:02:31.411 INFO  - I am ready to interpret rule 'pdflatex'.
-08 Mär 2020 13:02:31.411 INFO  - Rule location: 'C:\texlive\2019\texmf-dist\scripts\arara\rules'
-08 Mär 2020 13:02:31.416 INFO  - I am ready to interpret task 'PDFLaTeX engine' from rule 'PDFLaTeX'.
-08 Mär 2020 13:02:31.417 INFO  - System command: [ pdflatex, dtk-bibliography.tex ]
-08 Mär 2020 13:02:43.023 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
-08 Mär 2020 13:02:43.023 INFO  - This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex)
+16 Mai 2020 08:56:36.589 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
+16 Mai 2020 08:56:36.590 INFO  - Task result: SUCCESS
+16 Mai 2020 08:56:36.591 INFO  - I am ready to interpret rule 'pdflatex'.
+16 Mai 2020 08:56:36.591 INFO  - Rule location: 'C:\texlive\2020\texmf-dist\scripts\arara\rules'
+16 Mai 2020 08:56:36.597 INFO  - I am ready to interpret task 'PDFLaTeX engine' from rule 'PDFLaTeX'.
+16 Mai 2020 08:56:36.597 INFO  - System command: [ pdflatex, dtk-bibliography.tex ] @ 
+16 Mai 2020 08:56:49.280 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
+16 Mai 2020 08:56:49.280 INFO  - This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./dtk-bibliography.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-02-25>
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2020/01/24 v3.29 KOMA-Script document class (article)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
-(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def)
-(c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
-(c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
-(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)))))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
-(c:/texlive/2019/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-(c:/texlive/2019/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-(c:/texlive/2019/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
-(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def))
-(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def)
+L3 programming layer <2020-05-05>
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2020/04/19 v3.30 KOMA-Script document class (article)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrbase.sty
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/tocbasic.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/typearea.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+(c:/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+(c:/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def))
+(c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngerman.ldf
+(c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngermanb.ldf)))
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+(c:/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def))
+(c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def)
 (./dtk-authoryear.dbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def)
 (./dtk-authoryear.bbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg))
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def)
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg))
-(c:/texlive/2019/texmf-dist/tex/latex/dtk/dtk-logos.sty
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifluatex.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/fetamont/fetamont.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/hologo/hologo.sty
-(c:/texlive/2019/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/dantelogo/dantelogo.sty
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def)
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(c:/texlive/2020/texmf-dist/tex/latex/dtk/dtk-logos.sty
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/fetamont/fetamont.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/hologo/hologo.sty
+(c:/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/dantelogo/dantelogo.sty
 `dantelogo' v0.03, 2015/08/12 macro for DANTE's logo (hv)
-We run (pdf)latex ...  (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty))
- (c:/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
+We run (pdf)latex ...  (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty))
+ (c:/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
 (./dtk-bibliography.aux)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx))
-(./dtk-bibliography.bbl) (c:/texlive/2019/texmf-dist/tex/latex/base/t1cmss.fd)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx))
+(./dtk-bibliography.bbl) (c:/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd)
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/sc' instead on input line 27.
 
-[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd) [2]
+[1{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(c:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd) [2]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/sc' instead on input line 27.
@@ -221,18 +313,18 @@ LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/sc' instead on input line 27.
 
-[11] [12] [13] [14] [15] (c:/texlive/2019/texmf-dist/tex/latex/mflogo/ulogo.fd)
+[11] [12] [13] [14] [15] (c:/texlive/2020/texmf-dist/tex/latex/mflogo/ulogo.fd)
  [16]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/sc' instead on input line 27.
 
-[17] [18] [19] [20] [21] [22] [23] [24]
+[17] [18] [19] [20] [21] [22] [23] [24] [25]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/sc' instead on input line 27.
 
-[25] [26] [27] [28]
+[26] [27] [28]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/sc' instead on input line 27.
@@ -280,7 +372,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/sc' instead on input line 27.
 
-[58] (c:/texlive/2019/texmf-dist/tex/latex/dantelogo/T1DANTE.fd) [59] [60]
+[58] (c:/texlive/2020/texmf-dist/tex/latex/dantelogo/T1DANTE.fd) [59] [60]
 [61]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
@@ -291,209 +383,204 @@ LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/sc' instead on input line 27.
 
-[64] [65] [66] [67] [68] (./dtk-bibliography.aux)
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
- ){c:/texlive/2019/texmf-dist/fonts/enc/dvips/dantelogo/dante.enc}{c:/texlive/2
-019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2019/texmf-
-dist/fonts/type1/public/dantelogo/DANTE-Italic.pfb><c:/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texli
-ve/2019/texmf-dist/fonts/type1/hoekwater/mflogo-font/logosl10.pfb><c:/texlive/2
-019/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2019/texmf-
-dist/fonts/type1/public/cm-super/sfit1200.pfb><c:/texlive/2019/texmf-dist/fonts
-/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
-lic/cm-super/sfsi1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-sup
-er/sfsl1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsx172
-8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb><c:/
-texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on dtk-bibliography.pdf (68 pages, 362414 bytes).
-Transcript written on dtk-bibliography.log.
-
-08 Mär 2020 13:02:43.024 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
-08 Mär 2020 13:02:43.024 INFO  - Task result: SUCCESS
-08 Mär 2020 13:02:43.024 INFO  - I am ready to interpret rule 'pdflatex'.
-08 Mär 2020 13:02:43.024 INFO  - Rule location: 'C:\texlive\2019\texmf-dist\scripts\arara\rules'
-08 Mär 2020 13:02:43.028 INFO  - I am ready to interpret task 'PDFLaTeX engine' from rule 'PDFLaTeX'.
-08 Mär 2020 13:02:43.029 INFO  - System command: [ pdflatex, dtk-bibliography.tex ]
-08 Mär 2020 13:02:54.501 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
-08 Mär 2020 13:02:54.501 INFO  - This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./dtk-bibliography.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-02-25>
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2020/01/24 v3.29 KOMA-Script document class (article)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
-(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def)
-(c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
-(c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
-(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)))))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
-(c:/texlive/2019/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-(c:/texlive/2019/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-(c:/texlive/2019/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
-(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def))
-(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def)
-(./dtk-authoryear.dbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def)
-(./dtk-authoryear.bbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg))
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def)
-(c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg))
-(c:/texlive/2019/texmf-dist/tex/latex/dtk/dtk-logos.sty
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifluatex.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty)
-(c:/texlive/2019/texmf-dist/tex/latex/fetamont/fetamont.sty)
-(c:/texlive/2019/texmf-dist/tex/generic/hologo/hologo.sty
-(c:/texlive/2019/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/dantelogo/dantelogo.sty
-`dantelogo' v0.03, 2015/08/12 macro for DANTE's logo (hv)
-We run (pdf)latex ...  (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty))
- (c:/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty))
-(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
-(./dtk-bibliography.aux)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx)
-(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx))
-(./dtk-bibliography.bbl) (c:/texlive/2019/texmf-dist/tex/latex/base/t1cmss.fd)
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd) [2]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[3] [4] [5] [6] [7] [8] [9] [10]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[11] [12] [13] [14] [15] (c:/texlive/2019/texmf-dist/tex/latex/mflogo/ulogo.fd)
- [16]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[17] [18] [19] [20] [21] [22] [23] [24]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[25] [26] [27] [28]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[29] [30] [31] [32] [33]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[34]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[35] [36] [37] [38] [39] [40] [41] [42]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[43] [44] [45] [46] [47] [48]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[49] [50]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[51] [52]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[53] [54] [55] [56] [57]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[58] (c:/texlive/2019/texmf-dist/tex/latex/dantelogo/T1DANTE.fd) [59] [60]
-[61]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[62] [63]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/sc' instead on input line 27.
-
-[64] [65] [66] [67] [68] (./dtk-bibliography.aux) ){c:/texlive/2019/texmf-dist/
-fonts/enc/dvips/dantelogo/dante.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips
-/cm-super/cm-super-t1.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/dantel
-ogo/DANTE-Italic.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1
-/hoekwater/mflogo-font/logosl10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
-lic/cm-super/sfcc1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-sup
-er/sfit1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm120
-0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb><c:/
-texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/20
-19/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2019/texmf-d
-ist/fonts/type1/public/cm-super/sfti0800.pfb><c:/texlive/2019/texmf-dist/fonts/
+[64] [65] [66] [67] [68] (./dtk-bibliography.aux) ){c:/texlive/2020/texmf-dist/
+fonts/enc/dvips/dantelogo/dante.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips
+/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/dantel
+ogo/DANTE-Italic.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1
+/hoekwater/mflogo-font/logosl10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/pub
+lic/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
+er/sfit1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm120
+0.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb><c:/
+texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/20
+20/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2020/texmf-d
+ist/fonts/type1/public/cm-super/sfti0800.pfb><c:/texlive/2020/texmf-dist/fonts/
 type1/public/cm-super/sfti1200.pfb>
-Output written on dtk-bibliography.pdf (68 pages, 362414 bytes).
+Output written on dtk-bibliography.pdf (68 pages, 363241 bytes).
 Transcript written on dtk-bibliography.log.
 
-08 Mär 2020 13:02:54.501 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
-08 Mär 2020 13:02:54.502 INFO  - Task result: SUCCESS
-08 Mär 2020 13:02:54.505 INFO  - Total: 68.25 seconds
+16 Mai 2020 08:56:49.281 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
+16 Mai 2020 08:56:49.281 INFO  - Task result: SUCCESS
+16 Mai 2020 08:56:49.281 INFO  - I am ready to interpret rule 'pdflatex'.
+16 Mai 2020 08:56:49.281 INFO  - Rule location: 'C:\texlive\2020\texmf-dist\scripts\arara\rules'
+16 Mai 2020 08:56:49.288 INFO  - I am ready to interpret task 'PDFLaTeX engine' from rule 'PDFLaTeX'.
+16 Mai 2020 08:56:49.289 INFO  - System command: [ pdflatex, dtk-bibliography.tex ] @ 
+16 Mai 2020 08:57:01.644 INFO  - ---------------------- BEGIN OUTPUT BUFFER ----------------------
+16 Mai 2020 08:57:01.645 INFO  - This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./dtk-bibliography.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-05>
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2020/04/19 v3.30 KOMA-Script document class (article)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrbase.sty
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/tocbasic.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
+(c:/texlive/2020/texmf-dist/tex/latex/koma-script/typearea.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+(c:/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+(c:/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def))
+(c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngerman.ldf
+(c:/texlive/2020/texmf-dist/tex/generic/babel-german/ngermanb.ldf)))
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+(c:/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def))
+(c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(./dtk-authoryear.dbx)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def)
+(./dtk-authoryear.bbx
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def)
+(c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(c:/texlive/2020/texmf-dist/tex/latex/dtk/dtk-logos.sty
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(c:/texlive/2020/texmf-dist/tex/latex/fetamont/fetamont.sty)
+(c:/texlive/2020/texmf-dist/tex/generic/hologo/hologo.sty
+(c:/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/dantelogo/dantelogo.sty
+`dantelogo' v0.03, 2015/08/12 macro for DANTE's logo (hv)
+We run (pdf)latex ...  (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty))
+ (c:/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty))
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
+(./dtk-bibliography.aux)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx)
+(c:/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx))
+(./dtk-bibliography.bbl) (c:/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd)
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[1{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(c:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd) [2]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[3] [4] [5] [6] [7] [8] [9] [10]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[11] [12] [13] [14] [15] (c:/texlive/2020/texmf-dist/tex/latex/mflogo/ulogo.fd)
+ [16]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[17] [18] [19] [20] [21] [22] [23] [24] [25]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[26] [27] [28]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[29] [30] [31] [32] [33]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[34]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[35] [36] [37] [38] [39] [40] [41] [42]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[43] [44] [45] [46] [47] [48]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[49] [50]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[51] [52]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[53] [54] [55] [56] [57]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[58] (c:/texlive/2020/texmf-dist/tex/latex/dantelogo/T1DANTE.fd) [59] [60]
+[61]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[62] [63]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/sc' instead on input line 27.
+
+[64] [65] [66] [67] [68] (./dtk-bibliography.aux) ){c:/texlive/2020/texmf-dist/
+fonts/enc/dvips/dantelogo/dante.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips
+/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/dantel
+ogo/DANTE-Italic.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1
+/hoekwater/mflogo-font/logosl10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/pub
+lic/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
+er/sfit1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm120
+0.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb><c:/
+texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/20
+20/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2020/texmf-d
+ist/fonts/type1/public/cm-super/sfti0800.pfb><c:/texlive/2020/texmf-dist/fonts/
+type1/public/cm-super/sfti1200.pfb>
+Output written on dtk-bibliography.pdf (68 pages, 363241 bytes).
+Transcript written on dtk-bibliography.log.
+
+16 Mai 2020 08:57:01.645 INFO  - ----------------------- END OUTPUT BUFFER -----------------------
+16 Mai 2020 08:57:01.645 INFO  - Task result: SUCCESS
+16 Mai 2020 08:57:01.647 INFO  - Total: 53.92 seconds

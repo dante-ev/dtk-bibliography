@@ -1344,6 +1344,39 @@
       \range{pages}{0}
       \keyw{bretter}
     \endentry
+    \entry{dtk20.2:beinert:schriftwahl}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1519d8473cdaf4b9bd1547f7d9320138}{%
+           family={Beinert},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1519d8473cdaf4b9bd1547f7d9320138}
+      \strng{fullhash}{1519d8473cdaf4b9bd1547f7d9320138}
+      \strng{bibnamehash}{1519d8473cdaf4b9bd1547f7d9320138}
+      \strng{authorbibnamehash}{1519d8473cdaf4b9bd1547f7d9320138}
+      \strng{authornamehash}{1519d8473cdaf4b9bd1547f7d9320138}
+      \strng{authorfullhash}{1519d8473cdaf4b9bd1547f7d9320138}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Schriftwahl}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{17\bibrangedash 23}
+      \range{pages}{7}
+      \keyw{bretter}
+    \endentry
     \entry{dtk99.4:beitz:texshade-paket}{article}{}
       \name{author}{1}{}{%
         {{hash=f50340b23b570037cea3bcd9d58a24d8}{%
@@ -2273,6 +2306,7 @@
       \strng{authorbibnamehash}{db26addec23f77201c479a3b97f23039}
       \strng{authornamehash}{db26addec23f77201c479a3b97f23039}
       \strng{authorfullhash}{db26addec23f77201c479a3b97f23039}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -2289,6 +2323,74 @@
       \true{nocite}
       \field{pages}{64\bibrangedash 71}
       \range{pages}{8}
+      \keyw{bretter}
+    \endentry
+    \entry{dtk20.2:bossert:bibertool}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6c31465e69d98bc6e47b909f28564529}{%
+           family={Bossert},
+           familyi={B\bibinitperiod},
+           given={Lukas\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{fullhash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{bibnamehash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{authorbibnamehash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{authornamehash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{authorfullhash}{6c31465e69d98bc6e47b909f28564529}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Mit \enquote{biber -{}-tool} Bibliografieeinträge bearbeiten}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{24\bibrangedash 33}
+      \range{pages}{10}
+      \keyw{bretter}
+    \endentry
+    \entry{dtk20.2:bossert:code}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6c31465e69d98bc6e47b909f28564529}{%
+           family={Bossert},
+           familyi={B\bibinitperiod},
+           given={Lukas\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{fullhash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{bibnamehash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{authorbibnamehash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{authornamehash}{6c31465e69d98bc6e47b909f28564529}
+      \strng{authorfullhash}{6c31465e69d98bc6e47b909f28564529}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Verschiedene Möglichkeiten zum Kommentieren und Dokumentieren von Code}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{36\bibrangedash 48}
+      \range{pages}{13}
       \keyw{bretter}
     \endentry
     \entry{dtk16.3:bossert.ziegenhagen.voss:katalogeintraege}{article}{}
@@ -10266,6 +10368,7 @@
       \field{extraname}{68}
       \field{sortinit}{F}
       \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -10280,6 +10383,40 @@
       \true{nocite}
       \field{pages}{43\bibrangedash 45}
       \range{pages}{3}
+      \keyw{fremdebuehne}
+    \endentry
+    \entry{dtk20.2:fenn:ctan}{article}{}
+      \name{author}{1}{}{%
+        {{hash=343fb8c05e8a7ae68565e5e859d65090}{%
+           family={Fenn},
+           familyi={F\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{fullhash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{bibnamehash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{authorbibnamehash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{authornamehash}{343fb8c05e8a7ae68565e5e859d65090}
+      \strng{authorfullhash}{343fb8c05e8a7ae68565e5e859d65090}
+      \field{extraname}{69}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Neue Pakete auf CTAN}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{55\bibrangedash 62}
+      \range{pages}{8}
       \keyw{fremdebuehne}
     \endentry
     \entry{dtk04.4:fenn.kastrup:latex-das-praxisbuch}{article}{}
@@ -42411,6 +42548,7 @@
       \field{extraname}{36}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -42418,6 +42556,40 @@
       \field{journaltitle}{DTK}
       \field{month}{2}
       \field{number}{1}
+      \field{title}{Grußwort}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{4\bibrangedash 5}
+      \range{pages}{2}
+      \keyw{grusswort}
+    \endentry
+    \entry{dtk20.2:sievers:grusswort}{article}{}
+      \name{author}{1}{}{%
+        {{hash=331ce2f5d55758977d34824cb72d795d}{%
+           family={Sievers},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{fullhash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{bibnamehash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{authorbibnamehash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{authornamehash}{331ce2f5d55758977d34824cb72d795d}
+      \strng{authorfullhash}{331ce2f5d55758977d34824cb72d795d}
+      \field{extraname}{37}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
       \field{title}{Grußwort}
       \field{volume}{32}
       \field{year}{2020}
@@ -50953,7 +51125,7 @@
       \range{pages}{4}
       \keyw{tippstricks}
     \endentry
-    \entry{dtk20.1:voss:editorial}{article}{}
+    \entry{dtk20.2:voss:sonderzeichen}{article}{}
       \name{author}{1}{}{%
         {{hash=e081108643ae4b78a904ec3a607d3d71}{%
            family={Voß},
@@ -50976,18 +51148,18 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{DTK}
-      \field{month}{2}
-      \field{number}{1}
-      \field{title}{Editorial}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Die Eingabe von Sonderzeichen}
       \field{volume}{32}
       \field{year}{2020}
       \field{dateera}{ce}
       \true{nocite}
-      \field{pages}{3}
-      \range{pages}{1}
-      \keyw{editorial}
+      \field{pages}{6\bibrangedash 17}
+      \range{pages}{12}
+      \keyw{bretter}
     \endentry
-    \entry{dtk20.1:voss:fremdebuehnen}{article}{}
+    \entry{dtk20.1:voss:editorial}{article}{}
       \name{author}{1}{}{%
         {{hash=e081108643ae4b78a904ec3a607d3d71}{%
            family={Voß},
@@ -51012,6 +51184,108 @@
       \field{journaltitle}{DTK}
       \field{month}{2}
       \field{number}{1}
+      \field{title}{Editorial}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{3}
+      \range{pages}{1}
+      \keyw{editorial}
+    \endentry
+    \entry{dtk20.2:voss:editorial}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e081108643ae4b78a904ec3a607d3d71}{%
+           family={Voß},
+           familyi={V\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{fullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{bibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorbibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authornamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorfullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \field{extraname}{142}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Editorial}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{3}
+      \range{pages}{1}
+      \keyw{editorial}
+    \endentry
+    \entry{dtk20.2:voss:leseschwaeche}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e081108643ae4b78a904ec3a607d3d71}{%
+           family={Voß},
+           familyi={V\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{fullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{bibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorbibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authornamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorfullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \field{extraname}{143}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Eine weitere Schrift für Menschen mit Leseschwäche}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{33\bibrangedash 36}
+      \range{pages}{4}
+      \keyw{bretter}
+    \endentry
+    \entry{dtk20.1:voss:fremdebuehnen}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e081108643ae4b78a904ec3a607d3d71}{%
+           family={Voß},
+           familyi={V\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{fullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{bibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorbibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authornamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorfullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \field{extraname}{144}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{2}
+      \field{number}{1}
       \field{title}{Im Netz gefunden}
       \field{volume}{32}
       \field{year}{2020}
@@ -51020,6 +51294,40 @@
       \field{pages}{38\bibrangedash 42}
       \range{pages}{5}
       \keyw{fremdebuehne}
+    \endentry
+    \entry{dtk20.2:voss:listentabellen}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e081108643ae4b78a904ec3a607d3d71}{%
+           family={Voß},
+           familyi={V\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{fullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{bibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorbibnamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authornamehash}{e081108643ae4b78a904ec3a607d3d71}
+      \strng{authorfullhash}{e081108643ae4b78a904ec3a607d3d71}
+      \field{extraname}{145}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DTK}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Kommaseparierte Listen als Tabellen und Grafiken darstellen}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{49\bibrangedash 54}
+      \range{pages}{6}
+      \keyw{bretter}
     \endentry
     \entry{dtk06.3:voss.siart:matthias}{article}{}
       \name{author}{2}{}{%
