@@ -1,6 +1,0 @@
-sudo: false
-language: ruby
-bundler_args: --without metatools
-script: bundle exec rake ci
-notifications:
-  email: false
