@@ -1,0 +1,127 @@
+#!/usr/bin/env python3
+"""
+This script is used to upload a package to CTAN.
+It uses curl to send the POST request.
+
+Without any parameter it does just a sort of validation 
+of the package to be uploaded
+
+CAUTION: The validation is not as thorough as what `pkgcheck` does
+
+If `--upload` is specified the package gets uploaded to CTAN.
+
+If required it could be enhanced to be a generic script.
+
+Based on a script written by Manfred Lotz
+see https://gitlab.com/Lotz/pkgcheck/blob/master/ctan_upload.py
+"""
+
+
+import subprocess
+import zipfile
+from shutil import copyfile
+from os import unlink
+import toml
+
+def add_parm_from_toml(conf, parm, cmd):
+    """
+    Adds command line parameter(s) for the curl command
+
+    - first get value from  toml file or None in case
+      the `parm` is not specified
+    - if the value gotten is a list add command line args for each
+      iten in the list
+    - if the value gotten is just a simple value add command line
+      arg for that value
+    """
+
+    val = conf.get(parm)
+    if val:
+        if isinstance(val, list):
+            for v in val:
+                cmd.append("-F")
+                cmd.append(parm + "=" + v)
+        else:
+            cmd.append("-F")
+            cmd.append(parm + "=" + val)
+    return cmd
+
+
+def main():
+    """
+    Parse command line args and invoke curl to either
+    - validate an upload, or
+    - to upload a package to CTAN
+    """
+
+    conf = toml.load('dtk_bibliography.toml')
+
+    pkg = conf["pkg"]
+    pkg_version = conf["pkg_version"]
+    pkg_zip = conf["pkg_zip"]
+    uploader = conf["uploader"]
+    email = conf["email"]
+    ctan_path = conf["ctan_path"]
+
+
+    # certain parameters are always required
+    curl = ["curl"] + [
+        "-i",
+        "-X",
+        "POST",
+        "-F", "update=true",
+        "-F", "pkg=" + pkg,
+        "-F", "version=" + pkg_version,
+        "-F", "email=" + email,
+        "-F", "ctanPath=" + ctan_path,
+        "-F", "uploader=" + uploader,
+        "-F", "file=@" + pkg_zip,
+    ]
+
+
+    # the following parameters are optional
+    add_parm_from_toml(conf, "summary", curl)
+    add_parm_from_toml(conf, "description", curl)
+    add_parm_from_toml(conf, "author", curl)
+    add_parm_from_toml(conf, "home", curl)
+    add_parm_from_toml(conf, "announcement", curl)
+    add_parm_from_toml(conf, "support", curl)
+    add_parm_from_toml(conf, "development", curl)
+    add_parm_from_toml(conf, "repository", curl)
+    add_parm_from_toml(conf, "bugs", curl)
+    add_parm_from_toml(conf, "note", curl)
+    add_parm_from_toml(conf, "licenses", curl)
+    add_parm_from_toml(conf, "topics", curl)
+
+    upload = True
+    if upload == True:
+        curl.append("https://www.ctan.org/submit/upload")
+    else:
+        curl.append("https://www.ctan.org/submit/validate")
+
+    rc = subprocess.run(curl).returncode
+    if rc:
+        print(f"curl error: {rc}")
+
+
+if __name__ == "__main__":
+    # get latest versions of all files
+    copyfile('dtk-authoryear.bbx'  , './dtk-bibliography/dtk-authoryear.bbx')
+    copyfile('dtk-authoryear.dbx'  , './dtk-bibliography/dtk-authoryear.dbx')
+    copyfile('dtk-bibliography.pdf', './dtk-bibliography/dtk-bibliography.pdf')
+    copyfile('dtk-bibliography.tex', './dtk-bibliography/dtk-bibliography.tex')
+
+    # create the zip file
+    with zipfile.ZipFile('dtk-bibliography.zip', 'w', zipfile.ZIP_DEFLATED) as z:
+        z.write('./dtk-bibliography/README.md')
+        z.write('./dtk-bibliography/dtk-authoryear.bbx')
+        z.write('./dtk-bibliography/dtk-authoryear.dbx')
+        z.write('./dtk-bibliography/dtk-bibliography.pdf')
+        z.write('./dtk-bibliography/dtk-bibliography.tex')
+
+    unlink('./dtk-bibliography/dtk-authoryear.bbx')
+    unlink('./dtk-bibliography/dtk-authoryear.dbx')
+    unlink('./dtk-bibliography/dtk-bibliography.pdf')
+    unlink('./dtk-bibliography/dtk-bibliography.tex')
+    
+    main()
