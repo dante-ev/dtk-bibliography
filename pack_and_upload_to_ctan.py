@@ -54,6 +54,8 @@ def main():
     - to upload a package to CTAN
     """
 
+    # This TOML file is not included as it
+    # contains sensitive information
     conf = toml.load('dtk_bibliography.toml')
 
     pkg = conf["pkg"]
@@ -110,6 +112,8 @@ if __name__ == "__main__":
     copyfile('dtk-authoryear.dbx'  , './dtk-bibliography/dtk-authoryear.dbx')
     copyfile('dtk-bibliography.pdf', './dtk-bibliography/dtk-bibliography.pdf')
     copyfile('dtk-bibliography.tex', './dtk-bibliography/dtk-bibliography.tex')
+    copyfile('dtk-bibliography.bib', './dtk-bibliography/dtk-bibliography.bib')
+
 
     # create the zip file
     with zipfile.ZipFile('dtk-bibliography.zip', 'w', zipfile.ZIP_DEFLATED) as z:
@@ -118,10 +122,13 @@ if __name__ == "__main__":
         z.write('./dtk-bibliography/dtk-authoryear.dbx')
         z.write('./dtk-bibliography/dtk-bibliography.pdf')
         z.write('./dtk-bibliography/dtk-bibliography.tex')
+        z.write('./dtk-bibliography/dtk-bibliography.bib')
 
+    # remove files again
     unlink('./dtk-bibliography/dtk-authoryear.bbx')
     unlink('./dtk-bibliography/dtk-authoryear.dbx')
     unlink('./dtk-bibliography/dtk-bibliography.pdf')
     unlink('./dtk-bibliography/dtk-bibliography.tex')
+    unlink('./dtk-bibliography/dtk-bibliography.bib')
     
     main()
