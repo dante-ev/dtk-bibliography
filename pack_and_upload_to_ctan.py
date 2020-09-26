@@ -16,7 +16,6 @@ Based on a script written by Manfred Lotz
 see https://gitlab.com/Lotz/pkgcheck/blob/master/ctan_upload.py
 """
 
-
 import subprocess
 import zipfile
 from shutil import copyfile
@@ -47,7 +46,7 @@ def add_parm_from_toml(conf, parm, cmd):
     return cmd
 
 
-def main():
+def main(upload=False):
     """
     Parse command line args and invoke curl to either
     - validate an upload, or
@@ -95,14 +94,14 @@ def main():
     add_parm_from_toml(conf, "licenses", curl)
     add_parm_from_toml(conf, "topics", curl)
 
-    upload = True
+
     if upload == True:
         curl.append("https://www.ctan.org/submit/upload")
     else:
         curl.append("https://www.ctan.org/submit/validate")
 
     rc = subprocess.run(curl).returncode
-    if rc:
+    if rc != 0:
         print(f"curl error: {rc}")
 
 
@@ -131,4 +130,4 @@ if __name__ == "__main__":
     unlink('./dtk-bibliography/dtk-bibliography.tex')
     unlink('./dtk-bibliography/dtk-bibliography.bib')
     
-    main()
+    main(False)
