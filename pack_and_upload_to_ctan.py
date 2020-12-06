@@ -99,10 +99,13 @@ def main(upload=False):
         curl.append("https://www.ctan.org/submit/upload")
     else:
         curl.append("https://www.ctan.org/submit/validate")
+        print('Validation mode is on, no upload!')
 
     rc = subprocess.run(curl).returncode
     if rc != 0:
         print(f"curl error: {rc}")
+    else:
+        print(f"curl had no error, returncode was: {rc}")
 
 
 if __name__ == "__main__":
@@ -130,4 +133,4 @@ if __name__ == "__main__":
     unlink('./dtk-bibliography/dtk-bibliography.tex')
     unlink('./dtk-bibliography/dtk-bibliography.bib')
     
-    main(False)
+    main(False) # Set to True to upload
