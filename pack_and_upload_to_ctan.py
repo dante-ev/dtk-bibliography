@@ -97,6 +97,8 @@ def main(upload=False):
 
     if upload == True:
         curl.append("https://www.ctan.org/submit/upload")
+        print('Upload mode is on, uploading ZIP to CTAN!')
+        
     else:
         curl.append("https://www.ctan.org/submit/validate")
         print('Validation mode is on, no upload!')
