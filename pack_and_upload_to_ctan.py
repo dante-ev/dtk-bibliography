@@ -53,7 +53,7 @@ def main(upload=False):
     - to upload a package to CTAN
     """
 
-    print('Do not forget to update the .toml file!')
+    print('Do not forget to update the .toml file and the README file!')
     # This TOML file is not included as it
     # contains sensitive information
     conf = toml.load('dtk_bibliography.toml')
@@ -136,4 +136,4 @@ if __name__ == "__main__":
     unlink('./dtk-bibliography/dtk-bibliography.tex')
     unlink('./dtk-bibliography/dtk-bibliography.bib')
     
-    main(False) # Set to True to upload
+    main(True) # Set to True to upload
