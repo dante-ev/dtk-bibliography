@@ -53,6 +53,7 @@ def main(upload=False):
     - to upload a package to CTAN
     """
 
+    print('Do not forget to update the .toml file!')
     # This TOML file is not included as it
     # contains sensitive information
     conf = toml.load('dtk_bibliography.toml')

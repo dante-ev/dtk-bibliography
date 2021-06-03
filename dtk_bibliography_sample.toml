@@ -1,0 +1,24 @@
+pkg = "dtk-bibliography"
+pkg_version = "<YYYY-MM>"
+
+pkg_zip = "dtk-bibliography.zip"
+uploader = "<name>"
+email = "<email>"
+summary = "Bibliography of 'The TeXnische Komödie'"
+licenses = ["lppl1.3c"]
+ctan_path = "info/dtk-bibliography"
+
+repository = "https://github.com/dante-ev/dtk-bibliography"
+support = "https://github.com/dante-ev/dtk-bibliography/issues"
+bugs = "https://github.com/dante-ev/dtk-bibliography/issues"
+
+topics = ["biblio", "journalpub"]
+
+announcement = '''
+2021-03-21: updated for issue 2021/01
+'''
+
+# could be used for a note to the CTAN upload management team
+note = '''
+Uploaded by a small Python script which uses curl under the hood.
+'''
