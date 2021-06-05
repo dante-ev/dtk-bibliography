@@ -21,6 +21,8 @@ import zipfile
 from shutil import copyfile
 from os import unlink
 import toml
+import re
+
 
 def add_parm_from_toml(conf, parm, cmd):
     """
@@ -52,6 +54,7 @@ def main(upload=False):
     - validate an upload, or
     - to upload a package to CTAN
     """
+    
 
     print('Do not forget to update the .toml file and the README file!')
     # This TOML file is not included as it
@@ -64,6 +67,13 @@ def main(upload=False):
     uploader = conf["uploader"]
     email = conf["email"]
     ctan_path = conf["ctan_path"]
+
+
+    with open("dtk-bibliography/README.md", "r+") as f:
+        data = f.read()
+        f.seek(0)
+        f.write(re.sub(r"\$.*\$", "$" + conf["announcement"] + "$", data))
+        f.truncate()
 
 
     # certain parameters are always required
@@ -136,4 +146,8 @@ if __name__ == "__main__":
     unlink('./dtk-bibliography/dtk-bibliography.tex')
     unlink('./dtk-bibliography/dtk-bibliography.bib')
     
-    main(True) # Set to True to upload
+    main(False) # Set to True to upload
+    
+
+
+
