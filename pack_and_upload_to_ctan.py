@@ -128,6 +128,7 @@ if __name__ == "__main__":
     copyfile('dtk-bibliography.pdf', './dtk-bibliography/dtk-bibliography.pdf')
     copyfile('dtk-bibliography.tex', './dtk-bibliography/dtk-bibliography.tex')
     copyfile('dtk-bibliography.bib', './dtk-bibliography/dtk-bibliography.bib')
+    copyfile('dtk-logos.sty', './dtk-bibliography/dtk-logos.sty')
 
 
     # create the zip file
@@ -138,6 +139,7 @@ if __name__ == "__main__":
         z.write('./dtk-bibliography/dtk-bibliography.pdf')
         z.write('./dtk-bibliography/dtk-bibliography.tex')
         z.write('./dtk-bibliography/dtk-bibliography.bib')
+        z.write('./dtk-bibliography/dtk-logos.sty')
 
     # remove files again
     unlink('./dtk-bibliography/dtk-authoryear.bbx')
@@ -145,6 +147,8 @@ if __name__ == "__main__":
     unlink('./dtk-bibliography/dtk-bibliography.pdf')
     unlink('./dtk-bibliography/dtk-bibliography.tex')
     unlink('./dtk-bibliography/dtk-bibliography.bib')
+    unlink('./dtk-bibliography/dtk-logos.sty')
+
     
     main(False) # Set to True to upload
     

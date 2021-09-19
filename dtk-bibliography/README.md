@@ -3,7 +3,7 @@
 This package contains the bibliography for "Die TeXnische Komödie", 
 the journal of the German-speaking user group.
 
-It is updated on a quarterly basis, last update $2021-07-03 for issue 2021/03$
+It is updated on a quarterly basis, last update $2021-09-19 for issue 2021/03$
 
 # How to produce dtk-bibliography.pdf
 
