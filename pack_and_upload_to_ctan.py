@@ -56,7 +56,7 @@ def main(upload=False):
     """
     
 
-    print('Do not forget to update the .toml file and the README file!')
+    print('Do not forget to update the .toml file and the README file in the sub-folder!')
     # This TOML file is not included as it
     # contains sensitive information
     conf = toml.load('dtk_bibliography.toml')
