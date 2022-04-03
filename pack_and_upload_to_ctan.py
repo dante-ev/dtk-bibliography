@@ -56,7 +56,7 @@ def main(upload=False):
     """
     
 
-    print('Do not forget to update the .toml file and the README file in the sub-folder!')
+    print('Do not forget to update the .toml file, .tex and the README file in the sub-folder!')
     # This TOML file is not included as it
     # contains sensitive information
     conf = toml.load('dtk_bibliography.toml')
@@ -104,8 +104,6 @@ def main(upload=False):
     add_parm_from_toml(conf, "note", curl)
     add_parm_from_toml(conf, "licenses", curl)
     add_parm_from_toml(conf, "topics", curl)
-
-    print(curl)
 
     if upload == True:
         curl.append("https://www.ctan.org/submit/upload")
