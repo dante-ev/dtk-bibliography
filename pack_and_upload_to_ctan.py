@@ -72,7 +72,7 @@ def main(upload=False):
     with open("dtk-bibliography/README.md", "r+") as f:
         data = f.read()
         f.seek(0)
-        f.write(re.sub(r"\$.*\$", "$" + conf["announcement"] + "$", data))
+        f.write(re.sub(r"\$.*\$", conf["announcement"], data))
         f.truncate()
 
 
@@ -105,6 +105,7 @@ def main(upload=False):
     add_parm_from_toml(conf, "licenses", curl)
     add_parm_from_toml(conf, "topics", curl)
 
+    print(curl)
 
     if upload == True:
         curl.append("https://www.ctan.org/submit/upload")
