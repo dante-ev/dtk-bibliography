@@ -149,6 +149,7 @@ if __name__ == "__main__":
     unlink('./dtk-bibliography/dtk-logos.sty')
 
     
+    # Update the README.MD in the subfolder!
     main(False) # Set to True to upload
     
 
