@@ -22,7 +22,7 @@ from shutil import copyfile
 from os import unlink
 import toml
 import re
-
+import subprocess
 
 def add_parm_from_toml(conf, parm, cmd):
     """
@@ -54,7 +54,13 @@ def main(upload=False):
     - validate an upload, or
     - to upload a package to CTAN
     """
-    
+
+    print('Checking the file for errors')
+    result = subprocess.check_output("biber --nolog --nodieonerror --noconf --tool dtk-bibliography.bib", shell=True)    
+    result = result.decode('utf-8')
+    print(result)
+
+
 
     print('Do not forget to update the .toml file, .tex and the README file in the sub-folder!')
     # This TOML file is not included as it
