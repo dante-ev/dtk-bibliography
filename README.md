@@ -48,6 +48,6 @@ A project by Leo Arnold and Uwe Ziegenhagen to create an updated version of Dant
 |       31 | 2020 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       32 | 2021 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       33 | 2022 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       34 | 2023 |    ✔   |    ✔   |        |        |
+|       34 | 2023 |    ✔   |    ✔   |    ✔   |    ✔   |
 
 DTK Archiv: https://www.dante.de/dtk/bisher-erschienen/
