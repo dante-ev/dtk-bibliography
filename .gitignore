@@ -164,3 +164,4 @@ TSWLatexianTemp*
 /vendor/
 Gemfile.lock
 
+dtk_bibliography.toml
