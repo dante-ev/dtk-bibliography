@@ -1,0 +1,15 @@
+name: Checks
+on: [push, pull_request]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run jabref-action to check bib file
+        uses: jabref/jabref-action@main
+        with:
+          bibfile: dtk-bibliography.bib
+
