@@ -16,13 +16,15 @@ Based on a script written by Manfred Lotz
 see https://gitlab.com/Lotz/pkgcheck/blob/master/ctan_upload.py
 """
 
-import subprocess
-import zipfile
-from shutil import copyfile
-from os import unlink
-import toml
 import re
 import subprocess
+import zipfile
+from os import unlink
+from pathlib import Path
+from shutil import copyfile
+
+import tomllib
+
 
 def add_parm_from_toml(conf, parm, cmd):
     """
@@ -55,17 +57,17 @@ def main(upload=False):
     - to upload a package to CTAN
     """
 
-    print('Checking the file for errors')
+    print("Checking the file for errors")
     result = subprocess.check_output("biber --nolog --nodieonerror --noconf --tool dtk-bibliography.bib", shell=True)    
-    result = result.decode('utf-8')
+    result = result.decode("utf-8")
     print(result)
 
 
 
-    print('Do not forget to update the .toml file, .tex and the README file in the sub-folder!')
+    print("Do not forget to update the .toml file, .tex and the README file in the sub-folder!")
     # This TOML file is not included as it
     # contains sensitive information
-    conf = toml.load('dtk_bibliography.toml')
+    conf = tomllib.loads(Path("dtk_bibliography.toml").read_text())
 
     pkg = conf["pkg"]
     pkg_version = conf["pkg_version"]
@@ -111,13 +113,12 @@ def main(upload=False):
     add_parm_from_toml(conf, "licenses", curl)
     add_parm_from_toml(conf, "topics", curl)
 
-    if upload == True:
+    if upload:
         curl.append("https://www.ctan.org/submit/upload")
-        print('Upload mode is on, uploading ZIP to CTAN!')
-        
+        print("Upload mode is on, uploading ZIP to CTAN!")
     else:
         curl.append("https://www.ctan.org/submit/validate")
-        print('Validation mode is on, no upload!')
+        print("Validation mode is on, no upload!")
 
     rc = subprocess.run(curl).returncode
     if rc != 0:
