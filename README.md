@@ -60,6 +60,7 @@ Nutze am besten den HTML Export in der Datei dtk-bibliography.html
 |       35 | 2023 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       36 | 2024 |    ✔   |    ✔   |    ✔   |    ✔   |
 |       37 | 2025 |    ✔   |    ✔   |    ✔   |    ✔   |
+|       38 | 2026 |    ✔   |        |        |        |
 
 
 DTK Archiv: https://www.dante.de/dtk/bisher-erschienen/
