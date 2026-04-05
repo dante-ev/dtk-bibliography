@@ -166,3 +166,5 @@ Gemfile.lock
 
 dtk_bibliography.toml
 .idea
+build/
+*.zip
