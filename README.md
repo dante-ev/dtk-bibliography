@@ -1,66 +1,17 @@
 # DTK-Bibliography
 
-Ein Projekt von Leo Arnold und Uwe Ziegenhagen, um eine stets aktuelle Version der DTK Bibliografie bereitzustellen.
+Provides the latest bibliography of “[Die TeXnische Komödie](https://www.dante.de/dtk/)”, [DANTE e.V.](https://www.dante.de)'s quarterly journal.
 
-Wir empfehlen [JabRef](https://www.jabref.org/) für das Ansehen und Verarbeiten der Datei
+This project was started by Leo Arnold ([@leoarnold](https://github.com/leoarnold)) and Uwe Ziegenhagen ([@UweZiegenhagen](https://github.com/UweZiegenhagen)).
+It is currently maintained by Stephan Lukasczyk ([@stephanlukasczyk](https://github.com/stephanlukasczyk)).
 
-[![Build Status](https://travis-ci.org/dante-ev/dtk-bibliography.svg)](https://travis-ci.org/dante-ev/dtk-bibliography)
+Part of this project is to provide the bibliography also on [CTAN](https://ctan.org/pkg/dtk-bibliography), such that it is also part of recent TeX distributions.
+It allows to use the bibliography (requiring [`biblatex`](https://ctan.org/pkg/biblatex)) by just adding `\addbibresource{dtk-bibliography.bib}` to your preamble;
+this will automatically use the version of the bibliography shipped by your TeX distribution.
+We recommend updating your TeX distribution regularly to receive the latest updates of this bibliography.
 
+We recommend using [JabRef](https://www.jabref.org/) to view and edit the file.
 
-## Du suchst einen bestimmten Artikel?
-
-Nutze am besten den HTML Export in der Datei dtk-bibliography.html
-
-
-## Status
-
-| Zeichen | Bedeutung                                 |
-|  :---:  | :---                                      |
-|    o    | nicht erfasst                             |
-|    f    | Fehlstellen in der Web-Ausgabe            |
-|    w    | laut Web. Abgleich mit Druckausgabe fehlt |
-|    ✔    | Inhalt der Druckausgabe korrekt erfasst   |
-
-| Jahrgang | Jahr | Heft 1 | Heft 2 | Heft 3 | Heft 4 |
-|     ---: | ---: |  :---: |  :---: |  :---: |  :---: |
-|        1 | 1989 |        |        |        |    ✔   |
-|        2 | 1990 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        3 | 1991 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        4 | 1992 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        5 | 1993 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        6 | 1994 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        7 | 1995 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        8 | 1996 |    ✔   |    ✔   |    ✔   |    ✔   |
-|        9 | 1997 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       10 | 1998 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       11 | 1999 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       12 | 2000 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       13 | 2001 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       14 | 2002 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       15 | 2003 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       16 | 2004 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       17 | 2005 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       18 | 2006 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       19 | 2007 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       20 | 2008 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       21 | 2009 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       22 | 2010 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       23 | 2011 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       24 | 2012 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       25 | 2013 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       26 | 2014 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       27 | 2015 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       28 | 2016 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       29 | 2017 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       30 | 2018 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       31 | 2019 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       32 | 2020 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       33 | 2021 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       34 | 2022 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       35 | 2023 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       36 | 2024 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       37 | 2025 |    ✔   |    ✔   |    ✔   |    ✔   |
-|       38 | 2026 |    ✔   |        |        |        |
+[![Checks](https://github.com/dante-ev/dtk-bibliography/actions/workflows/checks.yml/badge.svg)](https://github.com/dante-ev/dtk-bibliography/actions/workflows/checks.yml)
 
 
-DTK Archiv: https://www.dante.de/dtk/bisher-erschienen/
