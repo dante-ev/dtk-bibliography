@@ -6,10 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
-      - name: Run jabref-action to check bib file
-        uses: jabref/jabref-action@main
+      - name: Install TeX Live
+        uses: zauguin/install-texlive@v3
         with:
-          bibfile: dtk-bibliography.bib
+          package_file: .github/tl_packages
+
+      - name: Run l3build
+        run: l3build ctan -q -H
 
