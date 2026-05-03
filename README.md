@@ -1,3 +1,5 @@
+This repository is a public archive. It has been moved to [Codeberg](https://codeberg.org/dante-ev/dtk-bibliography).  All changes will be only done there, this copy is no longer maintained!
+
 # DTK-Bibliography
 
 Provides the latest bibliography of “[Die TeXnische Komödie](https://www.dante.de/dtk/)”, [DANTE e.V.](https://www.dante.de)'s quarterly journal.
